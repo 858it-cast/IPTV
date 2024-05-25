@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      *{
+    margin: 5px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#photos{
+    margin-top: 30px;
+}
+
+#photos img{
+    display: block;
+    width: 100%;
+    margin-top: 9px;
+
+}
+     
+  @media (min-width: 200px){
+    #photos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 6px;
+        margin-top: 0;
+
+    }
+}
+  
+  @media (min-width: 900px){
+    #photos{
+        grid-template-columns: repeat(6, 1fr);
+        width: 900px;
+        margin: auto;
+    }
+
+}
+  
+/* Style the header */
+.header {
+  padding: 5px 1px;
+  background: #ffffff;
+  color: #333BFF;
+  position: sticky;   
+  top: 0; 
+  
+}
+  
+ </style>  
+ 
+       
+    <title>IPTV</title>
+</head>
+   
+	
+	<div class="header" id="myHeader">
+   <a href="https://858it-cast.github.io/IPTV/dtt/"><button> TV </button></a>
+   <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
+   <a href="https://858it-cast.github.io/IPTV/doc/"><button> Doc </button></a>
+   <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
+   <a href="https://858it-cast.github.io/IPTV/webcam"><button> Webcam </button></a>
+   <h3> Extra</h3>
+ 
+</div>
+
+   
+   <p>&nbsp;</p>
+   
+   
+<body>
+  
+
+    <div id="photos">
+	
+        
+<a href="https://858it-cast.github.io/IPTV/smile/extra1.m3u8"><img src="https://cdn0.iconfinder.com/data/icons/smoothies-vector-icons-volume-3/48/171-512.png" title="Evento 1" /></a>
+<a href="https://858it-cast.github.io/IPTV/smile/extra2.m3u8"><img src="https://www.iconpacks.net/icons/4/free-number-two-icon-13218-thumb.png" title="Evento 2" /></a>
+<a href="https://858it-cast.github.io/IPTV/smile/extra3.m3u8"><img src="https://cdn-icons-png.freepik.com/512/10137/10137505.png" title="Evento 3" /></a>
+<a href="https://858it-cast.github.io/IPTV/smile/extra4.m3u8"><img src="https://cdn.icon-icons.com/icons2/3372/PNG/512/number_four_cuatro_numero_icon_211146.png" title="Evento 4" /></a>
+<a href="https://858it-cast.github.io/IPTV/smile/extra5.m3u8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCH7u3qw5PTAXTo3T00SgCgDMI2a6N175SbpQ-lHaCiQ&s" title="Evento 5" /></a>
+<a href="https://858it-cast.github.io/IPTV/smile/extra6.m3u8"><img src="https://cdn-icons-png.flaticon.com/512/8864/8864494.png" title="Evento 6" /></a>
+
+
+
+
+		
+		
+		
+    </div>
+	
+
+	<p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	   <p>&nbsp;</p>
+	
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+	
+	
+	
+</body>
+
+</html>
