@@ -10,7 +10,7 @@
       *{
     margin: 5px;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 #photos{
@@ -34,14 +34,25 @@
     }
 }
   
-  @media (min-width: 900px){
+  @media (min-width: 600px){
     #photos{
         grid-template-columns: repeat(6, 1fr);
+        width: 600px;
+        margin: auto;
+    }
+
+}
+
+
+@media (min-width: 900px){
+    #photos{
+        grid-template-columns: repeat(9, 1fr);
         width: 900px;
         margin: auto;
     }
 
 }
+
   
 /* Style the header */
 .header {
@@ -55,9 +66,7 @@
   
  </style>  
  
- .column {
-    margin-right: 10px; /* Aggiungi spazio tra le colonne */
-}
+ 
        
     <title>IPTV</title>
 </head>
@@ -87,13 +96,13 @@
             <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16" target="_blank">
             <img class="thumbnail" src="https://i.imgur.com/CAx7yRm.png">
             </a>
-            <h7>Rai 1</h7>
+            Rai 1
             </div>
 			<div class="column">
             <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16" target="_blank">
             <img class="thumbnail" src="https://i.imgur.com/CAx7yRm.png">
             </a>
-            <h7>Rai 2</h7>
+            <h9>Rai 2</h9>
             </div>
 			<div class="column">
             <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16" target="_blank">
