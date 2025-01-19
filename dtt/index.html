@@ -5,104 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-      *{
-    margin: 5px;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#photos{
-    margin-top: 30px;
-}
-
-#photos img{
-    display: block;
-    width: 100%;
-    margin-top: 9px;
-
-}
-     
-  @media (min-width: 200px){
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        grid-gap: 6px;
-        margin-top: 0;
-
-    }
-}
-  
-  @media (min-width: 768px){
-    #photos{
-        grid-template-columns: repeat(6, 1fr);
-        width: 768px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1024px){
-    #photos{
-        grid-template-columns: repeat(9, 1fr);
-        width: 1024px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1366px){
-    #photos{
-        grid-template-columns: repeat(12, 1fr);
-        width: 1366px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-	    
-/* Style the header */
-.header {
-  padding: 5px 1px;
-  background: #ffffff;
-  color: #333BFF;
-  position: sticky;   
-  top: 0; 
-  
-}
-  
- </style>
- 
-       
     <title>IPTV</title>
-</head>
-   
-	
-	<div class="header" id="myHeader">
-   <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
-   <a href="https://858it-cast.github.io/IPTV/doc/"><button> Documentari </button></a>
-   <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
-   <a href="https://858it-cast.github.io/IPTV/webcam/"><button> Webcam </button></a>
-   <a href="https://858it-cast.github.io/IPTV/smile/"><button> Intrattenimento </button></a>
-   <h3> Digitale terrestre</h3>
- 
-</div>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
 
-   
-   <p>&nbsp;</p>
-   
-   
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            margin-top: 9px;
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 1024px;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+
 <body>
-  
+    <div class="header" id="myHeader">
+        <a href="https://858it-cast.github.io/IPTV/dtt/"><button>Digitale Terrestre</button></a>
+        <a href="https://858it-cast.github.io/IPTV/news/"><button>News</button></a>
+        <a href="https://858it-cast.github.io/IPTV/doc/"><button>Documentari</button></a>
+        <a href="https://858it-cast.github.io/IPTV/music/"><button>Musica</button></a>
+        <a href="https://858it-cast.github.io/IPTV/smile/"><button>Intrattenimento</button></a>
+        <h3>Webcam</h3>
+    </div>
 
     <div id="photos">
-	
-        
 <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16"><img src="https://i.imgur.com/CAx7yRm.png" title="Rai 1" /></a>
 <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=16"><img src="https://i.imgur.com/zA0PTcs.png" title="Rai 2" /></a>
 <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=16"><img src="https://i.imgur.com/9kuQCIi.png" title="Rai 3" /></a>
@@ -158,35 +113,24 @@
 <a href="https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8"><img src="https://i.imgur.com/FoQoNZW.png" title="Senato TV" /></a>
 <a href="https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8"><img src="https://i.imgur.com/fqGn1k9.png" title="Camera dei Deputati" /></a>
 
+       
 
-	
-		
-		
-		
-    </div>
-	
+	   </div>
 
-	<p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	
-	<script>
-window.onscroll = function() {myFunction()};
+    <script>
+        window.onscroll = function () { myFunction() };
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-	
-	
-	
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
