@@ -5,104 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-      *{
-    margin: 5px;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#photos{
-    margin-top: 30px;
-}
-
-#photos img{
-    display: block;
-    width: 100%;
-    margin-top: 9px;
-
-}
-     
-  @media (min-width: 200px){
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        grid-gap: 6px;
-        margin-top: 0;
-
-    }
-}
-  
-  @media (min-width: 768px){
-    #photos{
-        grid-template-columns: repeat(6, 1fr);
-        width: 768px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1024px){
-    #photos{
-        grid-template-columns: repeat(9, 1fr);
-        width: 1024px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1366px){
-    #photos{
-        grid-template-columns: repeat(12, 1fr);
-        width: 1366px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-	    
-/* Style the header */
-.header {
-  padding: 5px 1px;
-  background: #ffffff;
-  color: #333BFF;
-  position: sticky;   
-  top: 0; 
-  
-}
-  
- </style>
- 
-       
     <title>IPTV</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
 </head>
-   
-	
-	<div class="header" id="myHeader">
+
+<body>
+   <div class="header" id="myHeader">
    <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
    <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
    <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
    <a href="https://858it-cast.github.io/IPTV/webcam/"><button> Webcam </button></a>
    <a href="https://858it-cast.github.io/IPTV/smile/"><button> Intrattenimento </button></a>
    <h3> Documentari</h3>
- 
-</div>
-
-   
-   <p>&nbsp;</p>
-   
-   
-<body>
-  
+    </div>
 
     <div id="photos">
-	
-  
 <a href="https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"><img src="https://i.imgur.com/M4smqpF.png" title="Focus" /></a>
 <a href="https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"><img src="https://i.imgur.com/o7KVAIH.png" title="Pluto TV Documentary Italy" /></a>
 <a href="https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802b37709d6b0007b0c549/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"><img src="https://i.imgur.com/BN6icaT.png" title="Pluto TV Natura Italy" /></a>
@@ -138,34 +98,23 @@
 <a href="https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61b86c6ef30f5d0007e4c6d1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&"><img src="https://images.pluto.tv/channels/5dbc2f98777f2e0009934ae7/colorLogoPNG.png" title="Space" /></a>
 <a href="https://anym3u8player.com/youtube.php/id/671f98df65826.m3u8"><img src="https://i.imgur.com/iwf5IIs.png" title="NASA TV ISS" /></a>
 
+        
+		</div>
 
+    <script>
+        window.onscroll = function () { myFunction() };
 
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-		
-    </div>
-	
-
-	<p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	
-	<script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-	
-	
-	
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

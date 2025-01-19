@@ -5,104 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-      *{
-    margin: 5px;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#photos{
-    margin-top: 30px;
-}
-
-#photos img{
-    display: block;
-    width: 100%;
-    margin-top: 9px;
-
-}
-     
-  @media (min-width: 200px){
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        grid-gap: 6px;
-        margin-top: 0;
-
-    }
-}
-  
-  @media (min-width: 768px){
-    #photos{
-        grid-template-columns: repeat(6, 1fr);
-        width: 768px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1024px){
-    #photos{
-        grid-template-columns: repeat(9, 1fr);
-        width: 1024px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1366px){
-    #photos{
-        grid-template-columns: repeat(12, 1fr);
-        width: 1366px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-	    
-/* Style the header */
-.header {
-  padding: 5px 1px;
-  background: #ffffff;
-  color: #333BFF;
-  position: sticky;   
-  top: 0; 
-  
-}
-  
- </style>
- 
-       
     <title>IPTV</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
 </head>
-   
-	
-	<div class="header" id="myHeader">
+
+<body>
+    <div class="header" id="myHeader">
+        <div class="header" id="myHeader">
    <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
    <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
    <a href="https://858it-cast.github.io/IPTV/doc/"><button> Documentari </button></a>
    <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
    <a href="https://858it-cast.github.io/IPTV/webcam"><button> Webcam </button></a>
    <h3> Intrattenimento</h3>
- 
-</div>
-
-   
-   <p>&nbsp;</p>
-   
-   
-<body>
-  
+    </div>
 
     <div id="photos">
-	
-        
 <a href="https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bobross-cineverse/playlist.m3u8"><img src="https://i.imgur.com/X8pVhJK.png" title="The Bob Ross Channel" /></a>
 <a href="https://jmp2.uk/sam-US3400001FX.m3u8"><img src="https://i.imgur.com/tgWypVJ.png" title="Dog Whisperer with Cesar Millan" /></a>
 <a href="https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8"><img src="https://i.imgur.com/kFwfdd5.png" title="WipeOut eXtra" /></a>
@@ -119,33 +80,24 @@
 <a href="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69bbfd77d450008c7ffee/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e3a3277-9d15-4813-a57c-5547e9d53d6e"><img src="https://i.imgur.com/YS34HQF.png" title="Star Trek Deep Space Nine" /></a>
 <a href="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/634dacf51d90320007fcd5fa/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=234402c1-3013-44bc-8b1d-c32ced363ff7"><img src="https://i.imgur.com/oBPRfbS.png" title="Star Trek Voyager" /></a>
 <a href="https://jmp2.uk/sam-GBBD1500003SD.m3u8"><img src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1500003SD_20241112T093152SQUARE.png" title=" Caminetto HD" /></a>
-		
-		
-		
-    </div>
-	
+		        
 
-	<p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	
-	<script>
-window.onscroll = function() {myFunction()};
+		</div>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+    <script>
+        window.onscroll = function () { myFunction() };
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-	
-	
-	
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

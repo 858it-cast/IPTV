@@ -5,103 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-      *{
-    margin: 5px;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#photos{
-    margin-top: 30px;
-}
-
-#photos img{
-    display: block;
-    width: 100%;
-    margin-top: 9px;
-
-}
-     
-  @media (min-width: 200px){
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        grid-gap: 6px;
-        margin-top: 0;
-
-    }
-}
-  
-  @media (min-width: 768px){
-    #photos{
-        grid-template-columns: repeat(6, 1fr);
-        width: 768px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1024px){
-    #photos{
-        grid-template-columns: repeat(9, 1fr);
-        width: 1024px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1366px){
-    #photos{
-        grid-template-columns: repeat(12, 1fr);
-        width: 1366px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-	    
-/* Style the header */
-.header {
-  padding: 5px 1px;
-  background: #ffffff;
-  color: #333BFF;
-  position: sticky;   
-  top: 0; 
-  
-}
-  
- </style>
- 
-       
     <title>IPTV</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
 </head>
-   
-	
-	<div class="header" id="myHeader">
-   <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
+
+<body>
+    <div class="header" id="myHeader">
+        <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
    <a href="https://858it-cast.github.io/IPTV/doc/"><button> Documentari </button></a>
    <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
    <a href="https://858it-cast.github.io/IPTV/webcam/"><button> Webcam </button></a>
    <a href="https://858it-cast.github.io/IPTV/smile/"><button> Intrattenimento </button></a>
    <h3> News</h3>
- 
-</div>
-
-   
-   <p>&nbsp;</p>
-   
-   
-<body>
-  
+    </div>
 
     <div id="photos">
-	
 <a href="https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d"><img src="https://i.imgur.com/q4d3Dah.png" title="Sky TG24" /></a>
 <a href="https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16"><img src="https://i.imgur.com/gdzGwB6.png" title="Rai News 24" /></a>
 <a href="https://rakuten-euronews-3-it.samsung.wurl.tv/manifest/playlist.m3u8"><img src="https://i.imgur.com/8t9mdg9.png" title="Euronews Italian" /></a>
@@ -124,34 +85,23 @@
 <a href="https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_720.m3u8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/225px-Logo_TVE-24h.svg.png" title="TVE 24h" /></a>
 <a href="https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"><img src="https://sender.epglogos.de/302x190_w/100.png" title="Tagesschau24" /></a>
 <a href="https://accuweatherx-lg.amagi.tv/playlist.m3u8"><img src="https://i.imgur.com/2wrEhL4.png" title="Accuweather" /></a>
+       
+	   </div>
 
-	
-		
-		
-    </div>
-	
+    <script>
+        window.onscroll = function () { myFunction() };
 
-	<p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	
-	<script>
-window.onscroll = function() {myFunction()};
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-	
-	
-	
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

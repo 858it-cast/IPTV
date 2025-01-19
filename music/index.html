@@ -5,106 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-      *{
-    margin: 5px;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#photos{
-    margin-top: 30px;
-}
-
-#photos img{
-    display: block;
-    width: 100%;
-    margin-top: 9px;
-
-}
-     
-  @media (min-width: 200px){
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        grid-gap: 6px;
-        margin-top: 0;
-
-    }
-}
-  
-  @media (min-width: 768px){
-    #photos{
-        grid-template-columns: repeat(6, 1fr);
-        width: 768px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1024px){
-    #photos{
-        grid-template-columns: repeat(9, 1fr);
-        width: 1024px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-
-@media (min-width: 1366px){
-    #photos{
-        grid-template-columns: repeat(12, 1fr);
-        width: 1366px;
-		justify-content: center; /* centers items horizontally */
-        align-items: center; /* centers items vertically */
-        margin: auto;
-    }
-}
-	    
-/* Style the header */
-.header {
-  padding: 5px 1px;
-  background: #ffffff;
-  color: #333BFF;
-  position: sticky;   
-  top: 0; 
-  
-}
-  
- </style>
- 
-       
     <title>IPTV</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
 </head>
-   
-	
-	<div class="header" id="myHeader">
-   <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
+
+<body>
+    <div class="header" id="myHeader">
+        <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
    <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
    <a href="https://858it-cast.github.io/IPTV/doc/"><button> Documentari </button></a>
    <a href="https://858it-cast.github.io/IPTV/webcam/"><button> Webcam </button></a>
    <a href="https://858it-cast.github.io/IPTV/smile/"><button> Intrattenimento </button></a>
    <h3> Musica</h3>
- 
-</div>
-
-   
-   <p>&nbsp;</p>
-   
-   
-<body>
-  
+    </div>
 
     <div id="photos">
-	
-
-
-<a href="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8"><img src="https://upload.wikimedia.org/wikipedia/it/thumb/3/38/Radio_Capital_logo_%282020%29.svg/320px-Radio_Capital_logo_%282020%29.svg.png" title="Radio Capital TV" /></a>
+        <a href="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8"><img src="https://upload.wikimedia.org/wikipedia/it/thumb/3/38/Radio_Capital_logo_%282020%29.svg/320px-Radio_Capital_logo_%282020%29.svg.png" title="Radio Capital TV" /></a>
 <a href="https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/DELUXE_MUSIC_Logo_2019.png/225px-DELUXE_MUSIC_Logo_2019.png" title="Deluxe Music" /></a>
 <a href="https://jmp2.uk/sam-ITBA1500001R6.m3u8"><img src="https://i.imgur.com/pgCA35z.png" title="Deluxe Lounge" /></a>
 <a href="https://jmp2.uk/sam-ITBB1900001O3.m3u8"><img src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB1900001O3_20220404T005706SQUARE.png_20220404005708.png" title="Clubbing TV" /></a>
@@ -131,36 +90,22 @@
 <a href="https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8"><img src="https://i.imgur.com/4VCEJuJ.png" title="RadioItaliaTV" /></a>
 <a href="https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8"><img src="https://i.imgur.com/0MgCm1n.png" title="Radio ZETA" /></a>
 
-
-
-
-
-	
-		
     </div>
-	
 
-	<p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	
-	<script>
-window.onscroll = function() {myFunction()};
+    <script>
+        window.onscroll = function () { myFunction() };
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-	
-	
-	
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
