@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -127,8 +127,12 @@ https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 group-title="News" tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1024px-Sky_News_logo.svg.png" ,Sky News UK
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+#EXTINF:-1 group-title="News" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/OxDdcOr.png" ,ABC News Australia
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,CBC News (Canada)
 https://apollo.production-public.tubi.io/live/ac-cbc2.m3u8
+#EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,Global News (Canada)
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,CNN USA
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" ,ABC News
@@ -229,7 +233,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65
 https://jmp2.uk/sam-IT1800001W9.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="GB19000017P" tvg-name="Sci-Fi Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB19000017P_20240904T162745SQUARE.png" ,Sci-Fi Rakuten TV
 https://jmp2.uk/sam-GB19000017P.m3u8
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="Star Trek: The Original Series � Pluto TV" tvg-logo="https://i.imgur.com/VnUrFqB.png" ,Star Trek: The Original Series
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="Star Trek: The Original Series – Pluto TV" tvg-logo="https://i.imgur.com/VnUrFqB.png" ,Star Trek: The Original Series
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6581a09edfed030008e12b39/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="StarTrek.us" tvg-logo="https://i.imgur.com/8cvXYiT.png" ,Star Trek
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5efbd39f8c4ce900075d7698/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d71afd5b-b301-46b0-bf30-b8f1833c66d5
