@@ -112,7 +112,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 #EXTINF:-1 group-title="News" tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" ,Rai News 24
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 #EXTINF:-1 group-title="News" tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" ,Euronews Italian
-https://rakuten-euronews-3-it.samsung.wurl.tv/manifest/playlist.m3u8
+https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiYWM3MWRhMTMtNDkwNi00MmU2LWI3OWItNzQ3OGVkN2ZiM2Y5IiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Adnkronos.it" tvg-logo="https://i.imgur.com/mEoDAf1.png" ,Adnkronos
 https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNNInternationalEurope.us" tvg-logo="https://i.imgur.com/dfxefQw.png" ,CNN International
@@ -144,9 +144,7 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ReutersTV.us" tvg-name="Reuters" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" ,Reuters
 https://jmp2.uk/sam-DEBD4900001QV.m3u8
 #EXTINF:-1 group-title="News" tvg-id="TheGuardian.uk" tvg-logo="https://i.imgur.com/o9AYq9V.png" ,The Guardian
-https://rakuten-guardian-1-ie.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="WashingtonPost.us" tvg-logo="https://i.imgur.com/wFVDTNy.png" ,The Washington Post
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02298-nuvyyoinc-washingtonpost-tablo/playlist.m3u8
+https://the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6437/master.m3u8
 #EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/225px-Logo_TVE-24h.svg.png" ,TVE 24h
 https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_720.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,Tagesschau24
@@ -225,14 +223,12 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608014d19
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6602acadb2abe500081cf28a/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="62bc1f502b70e3000706298e" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" ,South Park
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62bc1f502b70e3000706298e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 group-title="Intrattenimento" tvg-logo="https://i.imgur.com/X3YMT1i.png" ,Mr Bean
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="GB300001QO" tvg-name="Conan O'Brien TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300001QO_20240319T052351SQUARE.png" ,Conan O'Brien TV
 https://jmp2.uk/sam-GB300001QO.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-logo="https://i.imgur.com/AbO63gW.png" ,Murder She Wrote
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6549337183595c000815ad05/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a29f7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8b79f9ba-6021-48dd-b1ca-e60b7396018c
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="IT1800001W9" tvg-name="RTV Fantascienza" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT1800001W9_20241022T043808SQUARE.png" ,RTV Fantascienza
-https://jmp2.uk/sam-IT1800001W9.m3u8
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="GB19000017P" tvg-name="Sci-Fi Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB19000017P_20240904T162745SQUARE.png" ,Sci-Fi Rakuten TV
-https://jmp2.uk/sam-GB19000017P.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Star Trek: The Original Series – Pluto TV" tvg-logo="https://i.imgur.com/VnUrFqB.png" ,Star Trek: The Original Series
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6581a09edfed030008e12b39/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="StarTrek.us" tvg-logo="https://i.imgur.com/8cvXYiT.png" ,Star Trek
