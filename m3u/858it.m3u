@@ -210,7 +210,7 @@ https://apollo.production-public.tubi.io/live/ac-cosmos.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,Space
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61b86c6ef30f5d0007e4c6d1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITAJ4500016FM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITAJ4500016FM_20230222T012101SQUARE.png_20230222012101.png" ,The Pet Collective
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60801317a0ccef00072aaf75/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="thebobrosschannel.us" tvg-logo="https://i.imgur.com/X8pVhJK.png" ,The Bob Ross Channel
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bobross-cineverse/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="DogWhisperer.uk" tvg-logo="https://i.imgur.com/tgWypVJ.png" ,Dog Whisperer with Cesar Millan
@@ -297,9 +297,15 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Poetto" tvg-logo="https://i.imgur.com/QV8pvcd.png" ,Poetto
 https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
+https://stream-meteoproject.eu/data/71/master.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Stintino" tvg-logo="https://i.imgur.com/0zn5JRR.png" ,Stintino
+https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
 https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Le Saline" tvg-logo="https://i.imgur.com/bZ46XZ2.png" ,Stintino (Le Saline)
 https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Bolotana" tvg-logo="https://i.imgur.com/mov6iEJ.png" ,Bolotana
+https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
