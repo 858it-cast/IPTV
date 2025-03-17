@@ -69,9 +69,18 @@
             height: 100%;
         }
 
-        /* Stile per i link dei video YouTube */
-        .video-link {
-            cursor: pointer; /* Cambia il cursore in una mano */
+        /* Stile per i bottoni dei video YouTube */
+        .video-button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .video-button img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -97,14 +106,14 @@
         <a href="https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8"><img src="https://i.imgur.com/HwFi2CK.png" title="Rostock (Radisson)" /></a>
         
         <!-- Primo video YouTube -->
-        <div class="video-link" data-video-url="https://www.youtube.com/embed/E6zG5BG3aBY?autoplay=1&mute=1">
+        <button class="video-button" data-video-url="https://www.youtube.com/embed/E6zG5BG3aBY?autoplay=1&mute=1">
             <img src="https://img.youtube.com/vi/E6zG5BG3aBY/0.jpg" title="YouTube Video 1" />
-        </div>
+        </button>
 
         <!-- Secondo video YouTube -->
-        <div class="video-link" data-video-url="https://www.youtube.com/embed/xNmvMyDRq0I?autoplay=1&mute=1">
+        <button class="video-button" data-video-url="https://www.youtube.com/embed/xNmvMyDRq0I?autoplay=1&mute=1">
             <img src="https://img.youtube.com/vi/xNmvMyDRq0I/0.jpg" title="YouTube Video 2" />
-        </div>
+        </button>
     </div>
 
     <!-- Fullscreen container -->
@@ -140,9 +149,9 @@
             document.getElementById('fullscreen-iframe').src = '';
         });
 
-        // Gestione dei link dei video
-        document.querySelectorAll('.video-link').forEach(link => {
-            link.addEventListener('click', function () {
+        // Gestione dei bottoni dei video
+        document.querySelectorAll('.video-button').forEach(button => {
+            button.addEventListener('click', function () {
                 const videoUrl = this.getAttribute('data-video-url');
                 openFullscreen(videoUrl);
             });
