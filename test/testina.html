@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video in Modalità Teatro Personalizzata</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .theater-mode {
+            width: 80%;
+            max-width: 1200px;
+            background-color: #000;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 60vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="theater-mode">
+        <iframe 
+            src="https://www.youtube.com/embed/xNmvMyDRq0I?autoplay=1&controls=1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
