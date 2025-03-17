@@ -34,30 +34,6 @@
             transform: scale(1.1);
         }
 
-        /* Stile per il contenitore del video fullscreen */
-        #video-container {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        #video-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        #video-container.active {
-            display: flex;
-        }
-
         @media (min-width: 1024px) {
             #photos {
                 grid-template-columns: repeat(9, 1fr);
@@ -99,41 +75,25 @@
         <a href="https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8"><img src="https://i.imgur.com/HwFi2CK.png" title="Rostock (Radisson)" /></a>
 
         <!-- Nuovo box per il video YouTube -->
-        <a id="youtube-thumbnail">
+        <a href="https://www.youtube.com/watch?v=E6zG5BG3aBY" target="_self">
             <img src="https://i.imgur.com/placeholder-image.jpg" title="YouTube Live" alt="YouTube Live" />
         </a>
     </div>
 
-    <!-- Contenitore per il video YouTube fullscreen -->
-    <div id="video-container">
-        <iframe id="youtube-video" src="https://www.youtube.com/embed/E6zG5BG3aBY?autoplay=1&mute=1" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-
     <script>
-        // Gestione del clic sull'anteprima del video YouTube
-        document.getElementById('youtube-thumbnail').addEventListener('click', function () {
-            const videoContainer = document.getElementById('video-container');
-            videoContainer.classList.add('active');
+        // Funzione per lo sticky header
+        window.onscroll = function () { myFunction() };
 
-            // Attiva la modalità fullscreen per il contenitore del video
-            if (videoContainer.requestFullscreen) {
-                videoContainer.requestFullscreen();
-            } else if (videoContainer.mozRequestFullScreen) { // Firefox
-                videoContainer.mozRequestFullScreen();
-            } else if (videoContainer.webkitRequestFullscreen) { // Chrome, Safari e Opera
-                videoContainer.webkitRequestFullscreen();
-            } else if (videoContainer.msRequestFullscreen) { // IE/Edge
-                videoContainer.msRequestFullscreen();
-            }
-        });
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-        // Esci dalla modalità fullscreen quando premi ESC
-        document.addEventListener('fullscreenchange', function () {
-            const videoContainer = document.getElementById('video-container');
-            if (!document.fullscreenElement) {
-                videoContainer.classList.remove('active');
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
             }
-        });
+        }
     </script>
 </body>
 
