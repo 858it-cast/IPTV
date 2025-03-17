@@ -123,4 +123,18 @@
 
         // Funzione per aprire il video in fullscreen
         function openFullscreen(url) {
-            var fullscreenContainer = document.getElementById('fullscreen-container
+            var fullscreenContainer = document.getElementById('fullscreen-container');
+            var iframe = document.getElementById('fullscreen-iframe');
+            iframe.src = url;
+            fullscreenContainer.style.display = 'flex';
+        }
+
+        // Chiudi il fullscreen quando si clicca fuori dal video
+        document.getElementById('fullscreen-container').addEventListener('click', function () {
+            this.style.display = 'none';
+            document.getElementById('fullscreen-iframe').src = '';
+        });
+    </script>
+</body>
+
+</html>
