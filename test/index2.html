@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,7 +83,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="header" id="myHeader">
         <a href="https://858it-cast.github.io/IPTV/dtt/"><button>Digitale Terrestre</button></a>
@@ -122,75 +120,39 @@
     </div>
 
     <script>
-    window.onscroll = function () { myFunction() };
+        window.onscroll = function () { myFunction() };
 
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
 
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
         }
-    }
 
-    // Funzione per aprire il video in fullscreen
-    function openFullscreen(url) {
-        var fullscreenContainer = document.getElementById('fullscreen-container');
-        var iframe = document.getElementById('fullscreen-iframe');
-        iframe.src = url;
-        fullscreenContainer.style.display = 'flex';
-
-        // Aggiungi una nuova voce alla cronologia
-        history.pushState({ videoOpen: true }, null, null);
-    }
-
-    // Chiudi il fullscreen quando si clicca fuori dal video
-    document.getElementById('fullscreen-container').addEventListener('click', function () {
-        closeFullscreen();
-    });
-
-    // Gestione del pulsante "indietro" del browser
-    window.addEventListener('popstate', function (event) {
-        if (event.state && event.state.videoOpen) {
-            closeFullscreen();
+        // Funzione per aprire il video in fullscreen
+        function openFullscreen(url) {
+            var fullscreenContainer = document.getElementById('fullscreen-container');
+            var iframe = document.getElementById('fullscreen-iframe');
+            iframe.src = url;
+            fullscreenContainer.style.display = 'flex';
         }
-    });
 
-    // Funzione per chiudere il fullscreen
-    function closeFullscreen() {
-        var fullscreenContainer = document.getElementById('fullscreen-container');
-        fullscreenContainer.style.display = 'none';
-        document.getElementById('fullscreen-iframe').src = '';
-    }
-
-    // Gestione dei bottoni dei video
-    document.querySelectorAll('.video-button').forEach(button => {
-        button.addEventListener('click', function () {
-            const videoUrl = this.getAttribute('data-video-url');
-            openFullscreen(videoUrl);
+        // Chiudi il fullscreen quando si clicca fuori dal video
+        document.getElementById('fullscreen-container').addEventListener('click', function () {
+            location.reload(); // Ricarica la pagina per chiudere l'iframe
         });
-    });
 
-    // Gestione del trascinamento verso il basso su mobile
-    var startY;
-    var fullscreenContainer = document.getElementById('fullscreen-container');
-
-    fullscreenContainer.addEventListener('touchstart', function (event) {
-        startY = event.touches[0].clientY;
-    });
-
-    fullscreenContainer.addEventListener('touchmove', function (event) {
-        var currentY = event.touches[0].clientY;
-        var deltaY = currentY - startY;
-
-        // Se l'utente trascina verso il basso, chiudi il video
-        if (deltaY > 50) { // Soglia di trascinamento
-            closeFullscreen();
-        }
-    });
-</script>
+        // Gestione dei bottoni dei video
+        document.querySelectorAll('.video-button').forEach(button => {
+            button.addEventListener('click', function () {
+                const videoUrl = this.getAttribute('data-video-url');
+                openFullscreen(videoUrl);
+            });
+        });
+    </script>
 </body>
-
 </html>
