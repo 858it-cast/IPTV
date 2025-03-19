@@ -149,8 +149,6 @@
             var fullscreenContainer = document.getElementById('fullscreen-container');
             fullscreenContainer.style.display = 'none';
             document.getElementById('fullscreen-iframe').src = '';
-            // Rimuovi lo stato dalla cronologia
-            history.back();
         }
 
         // Chiudi il fullscreen quando si clicca fuori dal video
@@ -188,10 +186,10 @@
             startY = event.touches[0].clientY;
         });
 
-        document.getElementById('body').addEventListener('touchmove', function (event) {
+        document.getElementById('body').addEventListener('touchend', function (event) {
             if (!startY) return;
 
-            let endY = event.touches[0].clientY;
+            let endY = event.changedTouches[0].clientY;
             let diffY = startY - endY;
 
             if (diffY > 50) { // Swipe dall'alto verso il basso
