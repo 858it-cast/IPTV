@@ -186,17 +186,16 @@
             startY = event.touches[0].clientY;
         });
 
-        document.getElementById('body').addEventListener('touchend', function (event) {
+        document.getElementById('body').addEventListener('touchmove', function (event) {
             if (!startY) return;
 
-            let endY = event.changedTouches[0].clientY;
+            let endY = event.touches[0].clientY;
             let diffY = startY - endY;
 
             if (diffY > 50) { // Swipe dall'alto verso il basso
                 closeFullscreen();
+                startY = null; // Resetta startY dopo aver gestito lo swipe
             }
-
-            startY = null;
         });
     </script>
 </body>
