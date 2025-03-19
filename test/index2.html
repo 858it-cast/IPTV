@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,7 +83,8 @@
         }
     </style>
 </head>
-<body>
+
+<body id="body">
     <div class="header" id="myHeader">
         <a href="https://858it-cast.github.io/IPTV/dtt/"><button>Digitale Terrestre</button></a>
         <a href="https://858it-cast.github.io/IPTV/news/"><button>News</button></a>
@@ -94,29 +95,29 @@
     </div>
 
     <div id="photos">
-        <a href="https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8"><img src="https://i.imgur.com/1JNWLBM.png" title="Museddu" /></a>
-        <a href="https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8"><img src="https://i.imgur.com/QV8pvcd.png" title="Poetto" /></a>
-        <a href="https://stream-meteoproject.eu/data/71/master.m3u8"><img src="https://i.imgur.com/iZCQdI2.png" title="Cagliari" /></a>
-        <a href="https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8"><img src="https://i.imgur.com/0zn5JRR.png" title="Stintino" /></a>
-        <a href="https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8"><img src="https://i.imgur.com/xChxuaK.png" title="Platamona" /></a>
-        <a href="https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8"><img src="https://i.imgur.com/bZ46XZ2.png" title="Stintino (Le Saline)" /></a>
-        <a href="https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8"><img src="https://i.imgur.com/mov6iEJ.png" title="Bolotana" /></a>
-        <a href="https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8"><img src="https://i.imgur.com/HwFi2CK.png" title="Rostock (Radisson)" /></a>
+        <a href="https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8"><img src="https://i.imgur.com/1JNWLBM.png" title="Museddu"></a>
+        <a href="https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8"><img src="https://i.imgur.com/QV8pvcd.png" title="Poetto"></a>
+        <a href="https://stream-meteoproject.eu/data/71/master.m3u8"><img src="https://i.imgur.com/iZCQdI2.png" title="Cagliari"></a>
+        <a href="https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8"><img src="https://i.imgur.com/0zn5JRR.png" title="Stintino"></a>
+        <a href="https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8"><img src="https://i.imgur.com/xChxuaK.png" title="Platamona"></a>
+        <a href="https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8"><img src="https://i.imgur.com/bZ46XZ2.png" title="Stintino (Le Saline)"></a>
+        <a href="https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8"><img src="https://i.imgur.com/mov6iEJ.png" title="Bolotana"></a>
+        <a href="https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8"><img src="https://i.imgur.com/HwFi2CK.png" title="Rostock (Radisson)"></a>
         
         <!-- Primo video YouTube -->
-        <button class="video-button" data-video-url="https://www.youtube.com/embed/E6zG5BG3aBY?autoplay=1&mute=1">
-            <img src="https://img.youtube.com/vi/E6zG5BG3aBY/0.jpg" title="YouTube Video 1" />
+        <button class="video-button" data-video-url="https://www.youtube.com/embed/E6zG5BG3aBY?autoplay=1&amp;mute=1">
+            <img src="https://img.youtube.com/vi/E6zG5BG3aBY/0.jpg" title="YouTube Video 1">
         </button>
 
         <!-- Secondo video YouTube -->
-        <button class="video-button" data-video-url="https://www.youtube.com/embed/xNmvMyDRq0I?autoplay=1&mute=1">
-            <img src="https://img.youtube.com/vi/xNmvMyDRq0I/0.jpg" title="YouTube Video 2" />
+        <button class="video-button" data-video-url="https://www.youtube.com/embed/xNmvMyDRq0I?autoplay=1&amp;mute=1">
+            <img src="https://img.youtube.com/vi/xNmvMyDRq0I/0.jpg" title="YouTube Video 2">
         </button>
     </div>
 
     <!-- Fullscreen container -->
     <div id="fullscreen-container" class="fullscreen" style="display: none;">
-        <iframe id="fullscreen-iframe" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe id="fullscreen-iframe" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
     </div>
 
     <script>
@@ -139,11 +140,22 @@
             var iframe = document.getElementById('fullscreen-iframe');
             iframe.src = url;
             fullscreenContainer.style.display = 'flex';
+            // Aggiungi lo stato alla cronologia
+            history.pushState({ fullscreen: true }, '');
+        }
+
+        // Funzione per chiudere il fullscreen
+        function closeFullscreen() {
+            var fullscreenContainer = document.getElementById('fullscreen-container');
+            fullscreenContainer.style.display = 'none';
+            document.getElementById('fullscreen-iframe').src = '';
+            // Rimuovi lo stato dalla cronologia
+            history.back();
         }
 
         // Chiudi il fullscreen quando si clicca fuori dal video
         document.getElementById('fullscreen-container').addEventListener('click', function () {
-            location.reload(); // Ricarica la pagina per chiudere l'iframe
+            closeFullscreen();
         });
 
         // Gestione dei bottoni dei video
@@ -152,6 +164,33 @@
                 const videoUrl = this.getAttribute('data-video-url');
                 openFullscreen(videoUrl);
             });
+        });
+
+        // Gestione del tasto "Indietro"
+        window.addEventListener('popstate', function (event) {
+            if (event.state && event.state.fullscreen) {
+                closeFullscreen();
+            }
+        });
+
+        // Gestione dello swipe su mobile
+        let startY;
+
+        document.getElementById('body').addEventListener('touchstart', function (event) {
+            startY = event.touches[0].clientY;
+        });
+
+        document.getElementById('body').addEventListener('touchmove', function (event) {
+            if (!startY) return;
+
+            let endY = event.touches[0].clientY;
+            let diffY = startY - endY;
+
+            if (diffY > 50) { // Swipe dall'alto verso il basso
+                closeFullscreen();
+            }
+
+            startY = null;
         });
     </script>
 </body>
