@@ -1,0 +1,83 @@
+name: Sync M3U8 Redirects
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run hourly
+  workflow_dispatch:
+  repository_dispatch:
+    types: [trigger-sync]
+
+jobs:
+  generate_redirects:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout IPTV repo
+        uses: actions/checkout@v4
+
+      - name: Fetch M3U8 files from private repo
+        uses: actions/checkout@v4
+        with:
+          repository: tuouser/ytm3u8
+          token: ${{ secrets.ACCESS_TOKEN }}  # Token con accesso al repo privato
+          path: ytm3u8-files
+
+      - name: Create redirect endpoints
+        run: |
+          mkdir -p hls-redirects
+          
+          # Process each .m3u8 file from private repo
+          for m3u8_file in ytm3u8-files/YouTubeLive/*.m3u8; do
+            filename=$(basename "$m3u8_file")
+            channel_name="${filename%.*}"
+            
+            # Get HLS URL from private repo file
+            hls_url=$(cat "$m3u8_file")
+            
+            # Generate JavaScript redirect file
+            cat <<EOF > "hls-redirects/${filename}"
+            <!DOCTYPE html>
+            <script>
+              const url = "$hls_url";
+              const headers = new Headers({
+                'Content-Type': 'application/vnd.apple.mpegurl',
+                'Access-Control-Allow-Origin': '*'
+              });
+              fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                  const response = new Response(data, { headers });
+                  self.postMessage(response, '*');
+                });
+            </script>
+            EOF
+          done
+          
+          # Create _headers file for GH Pages
+          echo "/*.m3u8" > hls-redirects/_headers
+          echo "  Content-Type: application/vnd.apple.mpegurl" >> hls-redirects/_headers
+          echo "  Access-Control-Allow-Origin: *" >> hls-redirects/_headers
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: hls-redirects
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
+
+      - name: Trigger IPTV update
+        run: |
+          echo "Redirect endpoints updated at $(date)" >> last_update.txt
+          git add last_update.txt
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git commit -m "Update redirect timestamps [skip ci]" || echo "No changes"
+          git push
