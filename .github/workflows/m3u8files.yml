@@ -23,7 +23,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_FULL_ACCESS }}
-          fetch-depth: 0
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -50,8 +49,8 @@ jobs:
           echo "/*.m3u8
   Content-Type: application/vnd.apple.mpegurl
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET
-  Access-Control-Expose-Headers: Content-Type" > pages_deploy/_headers
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept" > pages_deploy/_headers
 
           echo "/* /index.html 200" > pages_deploy/_redirects
 
@@ -83,7 +82,7 @@ jobs:
           git add ytm3u8/M3U8
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update M3U8 files"
-            git push origin HEAD:main
+            git push
           else
             echo "No changes to commit"
           fi
