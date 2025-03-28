@@ -1,4 +1,4 @@
-name: Deploy IPTV M3U8 with Proper Headers
+name: Deploy IPTV M3U8 with GitHub Pages
 
 on:
   push:
@@ -6,51 +6,55 @@ on:
       - 'ytm3u8/*.strm'
   workflow_dispatch:
 
-jobs:
-  generate-and-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Generate Valid M3U8 Files
-        run: |
-          mkdir -p ./m3u8_output
-          cd ytm3u8
-          for strm_file in *.strm; do
-            if [ -f "$strm_file" ]; then
-              base_name=$(basename "$strm_file" .strm)
-              hls_url=$(cat "$strm_file")
-              
-              # Genera file M3U8 con metadati completi
-              echo -e "#EXTM3U\n#EXTINF:-1 tvg-id=\"${base_name}\" tvg-name=\"${base_name}\",${base_name}\n${hls_url}" > "../m3u8_output/${base_name}.m3u8"
-            fi
-          done
-
-      - name: Validate Files
-        run: |
-          cd m3u8_output
-          for m3u8_file in *.m3u8; do
-            if ! grep -q "#EXTM3U" "$m3u8_file"; then
-              echo "::error file=$m3u8_file::Invalid M3U8 format"
-              exit 1
-            fi
-          done
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          path: ./m3u8_output
-          name: iptv-m3u8
+          python-version: '3.10'
+
+      - name: Generate M3U8 Files
+        run: |
+          import os
+          import pathlib
+          
+          # Crea directory di output
+          output_dir = pathlib.Path('m3u8_output')
+          output_dir.mkdir(exist_ok=True)
+          
+          # Processa tutti i file .strm
+          for strm_file in pathlib.Path('ytm3u8').glob('*.strm'):
+              channel_name = strm_file.stem
+              hls_url = strm_file.read_text().strip()
+              
+              # Crea contenuto M3U8 valido
+              m3u8_content = f"""#EXTM3U
+#EXTINF:-1 tvg-id="{channel_name}",{channel_name}
+{hls_url}"""
+              
+              # Scrivi file di output
+              (output_dir / f"{channel_name}.m3u8").write_text(m3u8_content)
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'm3u8_output/'
+          retention-days: 1
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
