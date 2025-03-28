@@ -1,4 +1,4 @@
-name: Generate Deployable M3U8
+name: Deploy IPTV M3U8 with Proper Headers
 
 on:
   push:
@@ -7,39 +7,50 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  generate-and-deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
-      - name: Create true M3U8 files
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Generate Valid M3U8 Files
         run: |
-          import os
-          import pathlib
-          
-          SOURCE_DIR = 'ytm3u8'
-          TARGET_DIR = 'ytm3u8/M3U8'
-          
-          pathlib.Path(TARGET_DIR).mkdir(exist_ok=True)
-          
-          for strm_file in pathlib.Path(SOURCE_DIR).glob('*.strm'):
-              channel_name = strm_file.stem
-              hls_url = strm_file.read_text().strip()
+          mkdir -p ./m3u8_output
+          cd ytm3u8
+          for strm_file in *.strm; do
+            if [ -f "$strm_file" ]; then
+              base_name=$(basename "$strm_file" .strm)
+              hls_url=$(cat "$strm_file")
               
-              m3u8_content = f"""#EXTM3U
-#EXTINF:-1 tvg-id="{channel_name}",{channel_name}
-{hls_url}"""
-              
-              (pathlib.Path(TARGET_DIR)/(f"{channel_name}.m3u8")).write_text(m3u8_content)
+              # Genera file M3U8 con metadati completi
+              echo -e "#EXTM3U\n#EXTINF:-1 tvg-id=\"${base_name}\" tvg-name=\"${base_name}\",${base_name}\n${hls_url}" > "../m3u8_output/${base_name}.m3u8"
+            fi
+          done
+
+      - name: Validate Files
+        run: |
+          cd m3u8_output
+          for m3u8_file in *.m3u8; do
+            if ! grep -q "#EXTM3U" "$m3u8_file"; then
+              echo "::error file=$m3u8_file::Invalid M3U8 format"
+              exit 1
+            fi
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./m3u8_output
+          name: iptv-m3u8
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.PAT_FULL_ACCESS }}
-          publish_dir: ./ytm3u8/M3U8
-          keep_files: true
+        id: deployment
+        uses: actions/deploy-pages@v2
