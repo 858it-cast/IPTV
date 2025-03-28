@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_FULL_ACCESS }}
-          fetch-depth: 0  # Important for git operations later
+          fetch-depth: 0
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
