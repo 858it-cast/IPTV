@@ -6,7 +6,7 @@ on:
       - 'ytm3u8/*.strm'
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # Runs every 30 minutes
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
@@ -27,12 +27,4 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Generate M3U8 files
-        run: |
-          import os
-          import pathlib
-          from datetime import
+        uses: actions/setup-python@v
