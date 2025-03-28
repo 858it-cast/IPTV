@@ -19,10 +19,13 @@ jobs:
     - name: Checkout ytm3u8 repo (private)
       uses: actions/checkout@v4
       with:
-        repository: 858it-cast/ytm3u8  # Sostituisci con il tuo username reale
-        token: ${{ secrets.ACCESS_TOKEN }}  # Deve corrispondere al nome del secret
+        repository: 858it-cast/ytm3u8
+        token: ${{ secrets.PAT_FULL_ACCESS }}  # MODIFICARE QUESTO
         path: ytm3u8
         fetch-depth: 0
+        
+    - name: Debug listing
+      run: ls -laR ytm3u8/  # Verifica il contenuto
         
     - name: Create redirect files
       run: |
@@ -33,29 +36,21 @@ jobs:
             filename=$(basename "$m3u8_file")
             url=$(head -n 1 "$m3u8_file")
             
-            # Crea file .strm
             echo "$url" > "IPTV/ytm3u8/${filename%.*}.strm"
             
-            # Crea file .m3u8 di redirect
             echo "#EXTM3U" > "IPTV/ytm3u8/$filename"
             echo "$url" >> "IPTV/ytm3u8/$filename"
           done
         else
-          echo "Nessun file .m3u8 trovato in ytm3u8/YouTubeLive/"
-          ls -laR ytm3u8/
+          echo "##[error]Nessun file .m3u8 trovato!"
           exit 1
         fi
         
-    - name: Commit and push changes
+    - name: Commit changes
       run: |
         cd IPTV
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
         git add ytm3u8/
-        if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "Auto-update M3U8 redirects [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push
-        else
-          echo "Nessuna modifica da commitare."
-        fi
+        git commit -m "Update redirects $(date +'%Y-%m-%d %H:%M')" || echo "Nessuna modifica da commitare"
+        git push
