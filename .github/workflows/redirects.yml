@@ -1,0 +1,56 @@
+name: Generate M3U8 Redirects
+on:
+  workflow_dispatch:
+  schedule:
+    # Esegui automaticamente ogni 6 ore per mantenere aggiornati i redirect
+    - cron: '0 */6 * * *'
+
+jobs:
+  generate-redirects:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout IPTV repo
+      uses: actions/checkout@v4
+      with:
+        repository: your-username/IPTV
+        path: IPTV
+        
+    - name: Checkout ytm3u8 repo
+      uses: actions/checkout@v4
+      with:
+        repository: your-username/ytm3u8
+        token: ${{ secrets.ACCESS_TOKEN }}
+        path: ytm3u8
+        
+    - name: Create redirect files
+      run: |
+        # Crea la directory di destinazione se non esiste
+        mkdir -p IPTV/ytm3u8
+        
+        # Trova tutti i file .m3u8 nella cartella YouTubeLive del repo privato
+        for m3u8_file in ytm3u8/YouTubeLive/*.m3u8; do
+          # Estrai il nome del file senza percorso
+          filename=$(basename "$m3u8_file")
+          
+          # Leggi l'URL dal file .m3u8 (prima riga)
+          url=$(head -n 1 "$m3u8_file")
+          
+          # Crea un file di redirect con estensione .strm (compatibile con molti client IPTV)
+          echo "$url" > "IPTV/ytm3u8/${filename%.*}.strm"
+          
+          # Opzionalmente puoi creare anche un file .m3u8 di redirect
+          echo "#EXTM3U" > "IPTV/ytm3u8/$filename"
+          echo "$url" >> "IPTV/ytm3u8/$filename"
+        done
+        
+    - name: Commit and push changes
+      run: |
+        cd IPTV
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        git add ytm3u8/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update M3U8 redirects" && git push)
