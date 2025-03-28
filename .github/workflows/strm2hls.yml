@@ -1,10 +1,12 @@
-name: Deploy IPTV M3U8 with GitHub Pages
+name: IPTV M3U8 Auto-Updater
 
 on:
   push:
     paths:
       - 'ytm3u8/*.strm'
   workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'  # Esegui ogni 30 minuti
 
 permissions:
   contents: write
@@ -12,49 +14,64 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  generate-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Generate M3U8 Files
+      - name: Generate M3U8 files
         run: |
           import os
           import pathlib
+          from datetime import datetime
           
-          # Crea directory di output
-          output_dir = pathlib.Path('m3u8_output')
-          output_dir.mkdir(exist_ok=True)
+          # Configurazione
+          SOURCE_DIR = 'ytm3u8'
+          OUTPUT_DIR = 'm3u8_output'
+          TIMESTAMP = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
           
-          # Processa tutti i file .strm
-          for strm_file in pathlib.Path('ytm3u8').glob('*.strm'):
-              channel_name = strm_file.stem
-              hls_url = strm_file.read_text().strip()
+          # Crea directory output
+          pathlib.Path(OUTPUT_DIR).mkdir(exist_ok=True)
+          
+          # Processa file .strm
+          for strm_file in pathlib.Path(SOURCE_DIR).glob('*.strm'):
+              channel = strm_file.stem
+              url = strm_file.read_text().strip()
               
-              # Crea contenuto M3U8 valido
-              m3u8_content = f"""#EXTM3U
-#EXTINF:-1 tvg-id="{channel_name}",{channel_name}
-{hls_url}"""
+              content = f"""#EXTM3U
+#EXTINF:-1 tvg-id="{channel}" tvg-name="{channel}",{channel} ({TIMESTAMP})
+{url}"""
               
-              # Scrivi file di output
-              (output_dir / f"{channel_name}.m3u8").write_text(m3u8_content)
+              (pathlib.Path(OUTPUT_DIR)/(f"{channel}.m3u8")).write_text(content)
 
-      - name: Upload Artifact
+          print(f"Generati {len(list(pathlib.Path(SOURCE_DIR).glob('*.strm')))} file M3U8")
+
+      - name: Validate M3U8
+        run: |
+          cd m3u8_output
+          for f in *.m3u8; do
+            if ! grep -q "#EXTM3U" "$f"; then
+              echo "::error file=$f::Formato M3U8 non valido!"
+              exit 1
+            fi
+          done
+
+      - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'm3u8_output/'
           retention-days: 1
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
