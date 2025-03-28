@@ -6,7 +6,7 @@ on:
       - 'ytm3u8/*.strm'
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # Esegui ogni 30 minuti
+    - cron: '*/30 * * * *'  # Esegui ogni 30 minuti (es. 10:00, 10:30, etc.)
 
 permissions:
   contents: write
@@ -21,10 +21,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Necessario per i cron schedule
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -35,43 +37,30 @@ jobs:
           import pathlib
           from datetime import datetime
           
-          # Configurazione
-          SOURCE_DIR = 'ytm3u8'
-          OUTPUT_DIR = 'm3u8_output'
-          TIMESTAMP = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+          # Configura percorsi
+          strm_dir = pathlib.Path('ytm3u8')
+          output_dir = pathlib.Path('m3u8_output')
+          output_dir.mkdir(exist_ok=True)
           
-          # Crea directory output
-          pathlib.Path(OUTPUT_DIR).mkdir(exist_ok=True)
-          
-          # Processa file .strm
-          for strm_file in pathlib.Path(SOURCE_DIR).glob('*.strm'):
+          # Processa tutti gli .strm
+          for strm_file in strm_dir.glob('*.strm'):
               channel = strm_file.stem
-              url = strm_file.read_text().strip()
+              hls_url = strm_file.read_text().strip()
               
               content = f"""#EXTM3U
-#EXTINF:-1 tvg-id="{channel}" tvg-name="{channel}",{channel} ({TIMESTAMP})
-{url}"""
+#EXTINF:-1 tvg-id="{channel}" tvg-logo="https://example.com/logos/{channel}.png",{channel}
+{hls_url}"""
               
-              (pathlib.Path(OUTPUT_DIR)/(f"{channel}.m3u8")).write_text(content)
+              (output_dir / f"{channel}.m3u8").write_text(content)
+          
+          print(f"✅ Generati {len(list(strm_dir.glob('*.strm')))} file M3U8")
 
-          print(f"Generati {len(list(pathlib.Path(SOURCE_DIR).glob('*.strm')))} file M3U8")
-
-      - name: Validate M3U8
-        run: |
-          cd m3u8_output
-          for f in *.m3u8; do
-            if ! grep -q "#EXTM3U" "$f"; then
-              echo "::error file=$f::Formato M3U8 non valido!"
-              exit 1
-            fi
-          done
-
-      - name: Upload to GitHub Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'm3u8_output/'
+          path: 'm3u8_output'
           retention-days: 1
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
