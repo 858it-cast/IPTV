@@ -23,6 +23,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_FULL_ACCESS }}
+          fetch-depth: 0  # Important for git operations later
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -39,17 +40,20 @@ jobs:
             if [ -f "$strm_file" ]; then
               base_name=$(basename "$strm_file" .strm)
               hls_url=$(cat "$strm_file")
-              # Genera sia nella cartella originale che in quella di deploy
               echo -e "#EXTM3U\n#EXTINF:-1,$base_name\n$hls_url" > "M3U8/${base_name}.m3u8"
               echo -e "#EXTM3U\n#EXTINF:-1,$base_name\n$hls_url" > "../pages_deploy/${base_name}.m3u8"
             fi
           done
 
-      - name: Create _headers file for GitHub Pages
+      - name: Create CORS configuration files
         run: |
-          echo "/*.m3u8" > pages_deploy/_headers
-          echo "  Content-Type: application/vnd.apple.mpegurl" >> pages_deploy/_headers
-          echo "  Access-Control-Allow-Origin: *" >> pages_deploy/_headers
+          echo "/*.m3u8
+  Content-Type: application/vnd.apple.mpegurl
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET
+  Access-Control-Expose-Headers: Content-Type" > pages_deploy/_headers
+
+          echo "/* /index.html 200" > pages_deploy/_redirects
 
       - name: Validate M3U8 files
         run: |
@@ -61,20 +65,6 @@ jobs:
               exit 1
             fi
           done
-
-      - name: Remove obsolete files
-        run: |
-          cd ytm3u8
-          if [ -d "M3U8" ]; then
-            cd M3U8
-            for m3u8_file in *.m3u8; do
-              base_name=$(basename "$m3u8_file" .m3u8)
-              if [ ! -f "../${base_name}.strm" ]; then
-                rm "$m3u8_file"
-                echo "Removed orphaned: $m3u8_file"
-              fi
-            done
-          fi
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
@@ -93,7 +83,7 @@ jobs:
           git add ytm3u8/M3U8
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update M3U8 files"
-            git push
+            git push origin HEAD:main
           else
             echo "No changes to commit"
           fi
