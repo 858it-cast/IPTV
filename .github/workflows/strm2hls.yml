@@ -1,4 +1,4 @@
-name: Convert .strm to .m3u8 with raw.githack
+name: Generate raw.githack M3U8 Links
 
 on:
   push:
@@ -20,17 +20,20 @@ jobs:
       - name: Create M3U8 directory
         run: mkdir -p ytm3u8/M3U8
 
-      - name: Generate .m3u8 files
+      - name: Generate proper .m3u8 files
         run: |
           cd ytm3u8
           for strm_file in *.strm; do
             if [ -f "$strm_file" ]; then
               base_name=$(basename "$strm_file" .strm)
-              echo "https://raw.githack.com/$GITHUB_REPOSITORY/main/ytm3u8/${base_name}.strm" > "M3U8/${base_name}.m3u8"
+              # Estrae l'URL HLS dal file .strm
+              hls_url=$(cat "$strm_file")
+              # Scrive il contenuto M3U8 standard
+              echo -e "#EXTM3U\n#EXTINF:-1,$base_name\nhttps://raw.githack.com/$GITHUB_REPOSITORY/main/ytm3u8/${base_name}.strm" > "M3U8/${base_name}.m3u8"
             fi
           done
 
-      - name: Remove obsolete .m3u8 files
+      - name: Remove obsolete files
         run: |
           cd ytm3u8
           if [ -d "M3U8" ]; then
@@ -39,18 +42,19 @@ jobs:
               base_name=$(basename "$m3u8_file" .m3u8)
               if [ ! -f "../${base_name}.strm" ]; then
                 rm "$m3u8_file"
+                echo "Removed orphaned: $m3u8_file"
               fi
             done
           fi
 
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           cd ytm3u8
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add M3U8
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Auto-update M3U8 links"
+            git commit -m "Auto-update M3U8 links with proper headers"
             git push
           else
             echo "No changes to commit"
