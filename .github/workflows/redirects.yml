@@ -1,11 +1,11 @@
-name: Generate M3U8 Redirects
+name: Generate STRM-as-M3U8 Files
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'  # Esegue ogni ora al minuto 0
 
 jobs:
-  generate-redirects:
+  generate-strm-files:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,14 +20,14 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: 858it-cast/ytm3u8
-        token: ${{ secrets.PAT_FULL_ACCESS }}  # MODIFICARE QUESTO
+        token: ${{ secrets.PAT_FULL_ACCESS }}
         path: ytm3u8
         fetch-depth: 0
         
     - name: Debug listing
       run: ls -laR ytm3u8/  # Verifica il contenuto
         
-    - name: Create redirect files
+    - name: Create STRM files with M3U8 extension
       run: |
         mkdir -p IPTV/ytm3u8
         
@@ -36,10 +36,8 @@ jobs:
             filename=$(basename "$m3u8_file")
             url=$(head -n 1 "$m3u8_file")
             
-            echo "$url" > "IPTV/ytm3u8/${filename%.*}.strm"
-            
-            echo "#EXTM3U" > "IPTV/ytm3u8/$filename"
-            echo "$url" >> "IPTV/ytm3u8/$filename"
+            # Crea file con contenuto STRM (solo URL) ma con estensione .m3u8
+            echo "$url" > "IPTV/ytm3u8/$filename"
           done
         else
           echo "##[error]Nessun file .m3u8 trovato!"
@@ -52,5 +50,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add ytm3u8/
-        git commit -m "Update redirects $(date +'%Y-%m-%d %H:%M')" || echo "Nessuna modifica da commitare"
+        git commit -m "Update STRM-as-M3U8 files $(date +'%Y-%m-%d %H:%M')" || echo "Nessuna modifica da commitare"
         git push
