@@ -2,7 +2,7 @@ name: Sync M3U8 Redirects
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # Run hourly
   workflow_dispatch:
   repository_dispatch:
     types: [trigger-sync]
@@ -23,67 +23,40 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 858it-cast/ytm3u8
-          token: ${{ secrets.ACCESS_TOKEN }}  # MODIFICARE QUI
+          token: ${{ secrets.ACCESS_TOKEN }}
           path: ytm3u8-files
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Verify files
+        run: |
+          ls -la ytm3u8-files/YouTubeLive/
+          [ ! -d "ytm3u8-files/YouTubeLive" ] && echo "##[error]YouTubeLive directory not found!" && exit 1
 
       - name: Create redirect endpoints
         run: |
           mkdir -p hls-redirects
           
-          if [ ! -d "ytm3u8-files/YouTubeLive" ]; then
-            echo "##[error]Directory ytm3u8-files/YouTubeLive not found!"
-            exit 1
-          fi
-
           for m3u8_file in ytm3u8-files/YouTubeLive/*.m3u8; do
             [ ! -f "$m3u8_file" ] && continue
             filename=$(basename "$m3u8_file")
             hls_url=$(cat "$m3u8_file")
             
-            cat <<EOF > "hls-redirects/${filename}"
+            # Generate minimal HTML with JS redirect
+            cat > "hls-redirects/${filename}" <<EOF
             <!DOCTYPE html>
             <script>
-              const url = "$hls_url";
-              const headers = new Headers({
-                'Content-Type': 'application/vnd.apple.mpegurl',
-                'Access-Control-Allow-Origin': '*'
-              });
-              fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                  const response = new Response(data, { headers });
-                  self.postMessage(response, '*');
-                });
+              window.location.href = "$hls_url";
             </script>
             EOF
           done
-          
-          echo "/*.m3u8" > hls-redirects/_headers
-          echo "  Content-Type: application/vnd.apple.mpegurl" >> hls-redirects/_headers
-          echo "  Access-Control-Allow-Origin: *" >> hls-redirects/_headers
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload to Pages
+        uses: actions/upload-pages-artifact@v2
         with:
           path: hls-redirects
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-
-      - name: Update timestamp
-        run: |
-          date > last_update.txt
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add last_update.txt
-          git commit -m "Update redirects timestamp [skip ci]" || exit 0
-          git push
+        uses: actions/deploy-pages@v2
