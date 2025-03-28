@@ -11,7 +11,7 @@ jobs:
       contents: write
     
     steps:
-    - name: Checkout IPTV repo
+    - name: Checkout IPTV repo (public)
       uses: actions/checkout@v4
       with:
         path: IPTV
@@ -19,28 +19,17 @@ jobs:
     - name: Checkout ytm3u8 repo (private)
       uses: actions/checkout@v4
       with:
-        repository: your-username/ytm3u8
-        token: ${{ secrets.PAT_TOKEN }}  # Deve essere un token con accesso al repo privato
+        repository: 858it-cast/ytm3u8  # Sostituisci con il tuo username reale
+        token: ${{ secrets.ACCESS_TOKEN }}  # Deve corrispondere al nome del secret
         path: ytm3u8
-        # Aggiungi queste opzioni per evitare errori
         fetch-depth: 0
-        persist-credentials: true
         
     - name: Create redirect files
       run: |
-        # Crea directory se non esiste
         mkdir -p IPTV/ytm3u8
         
-        # Verifica che i file siano presenti
-        if [ ! -d "ytm3u8/YouTubeLive" ]; then
-          echo "Errore: Directory ytm3u8/YouTubeLive non trovata!"
-          ls -R ytm3u8/
-          exit 1
-        fi
-        
-        # Processa i file .m3u8
-        for m3u8_file in ytm3u8/YouTubeLive/*.m3u8; do
-          if [ -f "$m3u8_file" ]; then
+        if ls ytm3u8/YouTubeLive/*.m3u8 >/dev/null 2>&1; then
+          for m3u8_file in ytm3u8/YouTubeLive/*.m3u8; do
             filename=$(basename "$m3u8_file")
             url=$(head -n 1 "$m3u8_file")
             
@@ -49,4 +38,24 @@ jobs:
             
             # Crea file .m3u8 di redirect
             echo "#EXTM3U" > "IPTV/ytm3u8/$filename"
-            echo "$url" >> "
+            echo "$url" >> "IPTV/ytm3u8/$filename"
+          done
+        else
+          echo "Nessun file .m3u8 trovato in ytm3u8/YouTubeLive/"
+          ls -laR ytm3u8/
+          exit 1
+        fi
+        
+    - name: Commit and push changes
+      run: |
+        cd IPTV
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        git add ytm3u8/
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "Auto-update M3U8 redirects [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+        else
+          echo "Nessuna modifica da commitare."
+        fi
