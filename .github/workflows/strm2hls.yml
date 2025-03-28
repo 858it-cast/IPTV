@@ -1,4 +1,4 @@
-name: Generate True M3U8 Files
+name: Generate Deployable M3U8
 
 on:
   push:
@@ -7,66 +7,39 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-m3u8:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          token: ${{ secrets.PAT_FULL_ACCESS }}
+          python-version: '3.10'
 
-      - name: Create M3U8 directory
-        run: mkdir -p ytm3u8/M3U8
-
-      - name: Generate valid M3U8 files
+      - name: Create true M3U8 files
         run: |
-          cd ytm3u8
-          for strm_file in *.strm; do
-            if [ -f "$strm_file" ]; then
-              base_name=$(basename "$strm_file" .strm)
-              hls_url=$(cat "$strm_file")
+          import os
+          import pathlib
+          
+          SOURCE_DIR = 'ytm3u8'
+          TARGET_DIR = 'ytm3u8/M3U8'
+          
+          pathlib.Path(TARGET_DIR).mkdir(exist_ok=True)
+          
+          for strm_file in pathlib.Path(SOURCE_DIR).glob('*.strm'):
+              channel_name = strm_file.stem
+              hls_url = strm_file.read_text().strip()
               
-              # Crea un vero file M3U8 con l'URL HLS diretto
-              echo -e "#EXTM3U\n#EXTINF:-1,$base_name\n$hls_url" > "M3U8/${base_name}.m3u8"
-            fi
-          done
+              m3u8_content = f"""#EXTM3U
+#EXTINF:-1 tvg-id="{channel_name}",{channel_name}
+{hls_url}"""
+              
+              (pathlib.Path(TARGET_DIR)/(f"{channel_name}.m3u8")).write_text(m3u8_content)
 
-      - name: Validate M3U8 files
-        run: |
-          cd ytm3u8/M3U8
-          for m3u8_file in *.m3u8; do
-            echo "Validating $m3u8_file..."
-            if ! grep -q "#EXTM3U" "$m3u8_file"; then
-              echo "ERROR: $m3u8_file is not a valid M3U8 file!"
-              exit 1
-            fi
-          done
-
-      - name: Remove obsolete files
-        run: |
-          cd ytm3u8
-          if [ -d "M3U8" ]; then
-            cd M3U8
-            for m3u8_file in *.m3u8; do
-              base_name=$(basename "$m3u8_file" .m3u8)
-              if [ ! -f "../${base_name}.strm" ]; then
-                rm "$m3u8_file"
-                echo "Removed orphaned: $m3u8_file"
-              fi
-            done
-          fi
-
-      - name: Commit and push
-        run: |
-          cd ytm3u8
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add M3U8
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Auto-update true M3U8 files"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.PAT_FULL_ACCESS }}
+          publish_dir: ./ytm3u8/M3U8
+          keep_files: true
