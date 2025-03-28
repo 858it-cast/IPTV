@@ -13,6 +13,11 @@ jobs:
       contents: write
       pages: write
       id-token: write
+    
+    # AGGIUNGI QUESTA SEZIONE ENVIRONMENT
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -66,6 +71,7 @@ jobs:
           path: ytm3u8/M3U8/
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
 
       - name: Commit and push to main branch
