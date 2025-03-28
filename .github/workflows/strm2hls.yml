@@ -6,7 +6,7 @@ on:
       - 'ytm3u8/*.strm'
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # Esegui ogni 30 minuti (es. 10:00, 10:30, etc.)
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
 
 permissions:
   contents: write
@@ -21,12 +21,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Necessario per i cron schedule
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -35,32 +35,4 @@ jobs:
         run: |
           import os
           import pathlib
-          from datetime import datetime
-          
-          # Configura percorsi
-          strm_dir = pathlib.Path('ytm3u8')
-          output_dir = pathlib.Path('m3u8_output')
-          output_dir.mkdir(exist_ok=True)
-          
-          # Processa tutti gli .strm
-          for strm_file in strm_dir.glob('*.strm'):
-              channel = strm_file.stem
-              hls_url = strm_file.read_text().strip()
-              
-              content = f"""#EXTM3U
-#EXTINF:-1 tvg-id="{channel}" tvg-logo="https://example.com/logos/{channel}.png",{channel}
-{hls_url}"""
-              
-              (output_dir / f"{channel}.m3u8").write_text(content)
-          
-          print(f"✅ Generati {len(list(strm_dir.glob('*.strm')))} file M3U8")
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'm3u8_output'
-          retention-days: 1
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          from datetime import
