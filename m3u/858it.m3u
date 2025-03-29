@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -26,7 +26,7 @@ https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="TeleRegione.it" tvg-name="TeleRegione" tvg-logo="https://www.teleregionelive.it/wp-content/uploads/2023/08/ultima-face-Copia-800x445.png" ,TeleRegione
 https://5f22d76e220e1.streamlock.net/galluralive/galluralive/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
-https://www.rainews.it/tgr/sardegna/notiziari
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=18852&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="20.it" tvg-name="20 Mediaset" tvg-logo="https://i.imgur.com/It13jwX.png" ,20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai4.it" tvg-name="Rai 4" tvg-logo="https://i.imgur.com/XFkZRfv.png" ,Rai 4
@@ -175,12 +175,6 @@ https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 https://jmp2.uk/sam-ITBA3300046KE.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/tzLOxoQ.png" ,Weatherspy
 https://jukin-weatherspy-4-eu.vidaa.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="Naturescape1.us" tvg-logo="https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/featuredImage.jpg?fm=jpg&w=1000&h=525&fit=clip&mark=https%3A%2F%2Fpluto-assets.s3.amazonaws.com%2Foptimizely%2Fimages%2Fpluto_logo_solid_white.png&mark-w=200&mark-pad=30&txt=Watch%20Free&txt-size=40&txt-color=ffffff&txt-align=bottom%2Cleft&txt-font=Futura-Bold&txt-pad=38&blend=https%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bc=bottom&bf=crop&ixlib=react-9.1.5" ,Pluto TV Naturescape
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812bd9f249444e05d09cc4e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812bd9f249444e05d09cc4e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=692&terminate=false&userId=
-#EXTINF:-1 group-title="Documentari" tvg-id="naturevision.us" tvg-logo="https://i.imgur.com/i7xmq0s.png" ,Naturevision
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991197
-#EXTINF:-1 group-title="Documentari" tvg-id="drone.tv" tvg-logo="https://i.imgur.com/XZoZxVW.png" ,Drone TV
-https://airvuz-dronetv-1-eu.vidaa.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="authentichistory.uk" tvg-logo="https://i.imgur.com/mAGnd8g.png" ,Autentic History
 https://autentic-autentichistory-1-gb.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="timeline.uk" tvg-logo="https://i.imgur.com/SuOHDL2.png" ,Timeline
@@ -209,8 +203,16 @@ https://jmp2.uk/sam-US900001CX.m3u8
 https://apollo.production-public.tubi.io/live/ac-cosmos.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,Space
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61b86c6ef30f5d0007e4c6d1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
-#EXTINF:-1 group-title="Documentari" tvg-id="NASATVISSViews.us" tvg-logo="https://i.imgur.com/iwf5IIs.png" ,NASA TV ISS
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="NASATVISSViews.us" tvg-logo="https://i.imgur.com/iwf5IIs.png" ,NASA TV ISS
 https://cloud.858it-cast.workers.dev/iss.m3u8
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="Space Ambient" tvg-logo="https://i.imgur.com/nncVYGE.png" ,Space Ambient
+https://cloud.858it-cast.workers.dev/spaceambient.m3u8
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="drone.tv" tvg-logo="https://i.imgur.com/XZoZxVW.png" ,Drone TV
+https://airvuz-dronetv-1-eu.vidaa.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="Naturescape1.us" tvg-logo="https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/featuredImage.jpg?fm=jpg&w=1000&h=525&fit=clip&mark=https%3A%2F%2Fpluto-assets.s3.amazonaws.com%2Foptimizely%2Fimages%2Fpluto_logo_solid_white.png&mark-w=200&mark-pad=30&txt=Watch%20Free&txt-size=40&txt-color=ffffff&txt-align=bottom%2Cleft&txt-font=Futura-Bold&txt-pad=38&blend=https%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bc=bottom&bf=crop&ixlib=react-9.1.5" ,Pluto TV Naturescape
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812bd9f249444e05d09cc4e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812bd9f249444e05d09cc4e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=692&terminate=false&userId=
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="naturevision.us" tvg-logo="https://i.imgur.com/i7xmq0s.png" ,Naturevision
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991197
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITAJ4500016FM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITAJ4500016FM_20230222T012101SQUARE.png_20230222012101.png" ,The Pet Collective
 https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="thebobrosschannel.us" tvg-logo="https://i.imgur.com/X8pVhJK.png" ,The Bob Ross Channel
@@ -249,6 +251,8 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/p
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="DeluxeLounge.de" tvg-logo="https://i.imgur.com/pgCA35z.png" ,Deluxe Lounge
 https://jmp2.uk/sam-ITBA1500001R6.m3u8
+#EXTINF:-1 group-title="Musica" tvg-id="progressivehouse.yt" tvg-logo="https://i.imgur.com/YmPhtNm.png" ,Progressive House
+https://cloud.858it-cast.workers.dev/progressivehouse.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="ITBB1900001O3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB1900001O3_20220404T005706SQUARE.png_20220404005708.png" ,Clubbing TV
 https://jmp2.uk/sam-ITBB1900001O3.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="5f98471110cca20007d39f76" tvg-logo="https://i.imgur.com/0FhindL.png" ,MTV Unplugged
@@ -297,10 +301,14 @@ https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Museddu" tvg-logo="https://i.imgur.com/1JNWLBM.png" ,Museddu
 https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="TorreBari" tvg-logo="https://i.imgur.com/99uJLx0.png" ,Torre di Bari
+https://cloud.858it-cast.workers.dev/barisardo.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Poetto" tvg-logo="https://i.imgur.com/QV8pvcd.png" ,Poetto
 https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
 https://stream-meteoproject.eu/data/71/master.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu
+https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Stintino" tvg-logo="https://i.imgur.com/0zn5JRR.png" ,Stintino
 https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
@@ -309,5 +317,15 @@ https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8
 https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Bolotana" tvg-logo="https://i.imgur.com/mov6iEJ.png" ,Bolotana
 https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Trento" tvg-logo="https://i.imgur.com/COJOOq6.png" ,Trento
+https://cloud.858it-cast.workers.dev/trento.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
+https://cloud.858it-cast.workers.dev/rio.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
+
+
+
+
+
+
