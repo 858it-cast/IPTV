@@ -27,7 +27,7 @@ jobs:
     - name: Debug listing
       run: ls -laR ytm3u8/  # Verifica il contenuto
         
-    - name: Create STRM files with M3U8 extension
+    - name: Create STRM files with M3U8 extension from YouTubeLive
       run: |
         mkdir -p IPTV/ytm3u8
         
@@ -40,8 +40,23 @@ jobs:
             echo "$url" > "IPTV/ytm3u8/$filename"
           done
         else
-          echo "##[error]Nessun file .m3u8 trovato!"
-          exit 1
+          echo "##[warning]Nessun file .m3u8 trovato in YouTubeLive!"
+        fi
+        
+    - name: Create STRM files with M3U8 extension from SkylineWebcams
+      run: |
+        mkdir -p IPTV/ytm3u8
+        
+        if ls ytm3u8/SkylineWebcams/*.m3u8 >/dev/null 2>&1; then
+          for m3u8_file in ytm3u8/SkylineWebcams/*.m3u8; do
+            filename=$(basename "$m3u8_file")
+            url=$(head -n 1 "$m3u8_file")
+            
+            # Crea file con contenuto STRM (solo URL) ma con estensione .m3u8
+            echo "$url" > "IPTV/ytm3u8/$filename"
+          done
+        else
+          echo "##[warning]Nessun file .m3u8 trovato in SkylineWebcams!"
         fi
         
     - name: Commit changes
