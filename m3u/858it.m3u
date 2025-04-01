@@ -303,8 +303,12 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TorreBari" tvg-logo="https://i.imgur.com/99uJLx0.png" ,Torre di Bari
 https://cloud.858it-cast.workers.dev/barisardo.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Arbatax" tvg-logo="https://i.imgur.com/RpVpcg5.png" ,Arbatax
+https://slc.858it-cast.workers.dev/arbatax.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Poetto" tvg-logo="https://i.imgur.com/QV8pvcd.png" ,Poetto
 https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
+https://slc.858it-cast.workers.dev/calamosca.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
 https://stream-meteoproject.eu/data/71/master.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu
@@ -319,13 +323,9 @@ https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8
 https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Trento" tvg-logo="https://i.imgur.com/COJOOq6.png" ,Trento
 https://cloud.858it-cast.workers.dev/trento.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento sud
+https://slc.858it-cast.workers.dev/trentosud.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
 https://cloud.858it-cast.workers.dev/rio.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
-
-
-
-
-
-
