@@ -24,7 +24,7 @@ https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/p
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="TCS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tele_Costa_Smeralda_logo.svg/225px-Tele_Costa_Smeralda_logo.svg.png" ,TCS
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
-https://ichnusa.858it-cast.workers.dev/tgrsardegna.m3u8?direct=1
+https://ichnusa.858it-cast.workers.dev/tgrsardegna.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="20.it" tvg-name="20 Mediaset" tvg-logo="https://i.imgur.com/It13jwX.png" ,20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai4.it" tvg-name="Rai 4" tvg-logo="https://i.imgur.com/XFkZRfv.png" ,Rai 4
