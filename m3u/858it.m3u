@@ -329,3 +329,5 @@ https://slc.858it-cast.workers.dev/trentosud.m3u8
 https://cloud.858it-cast.workers.dev/rio.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://camo.githubusercontent.com/82a58545fc23bcbd69e05c3ab35a9f9c6817cb041ae92c00b66caeb1f0fe881a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64642f4672616e63655f335f323031382e7376672f38393970782d4672616e63655f335f323031382e7376672e706e67" ,🇫🇷 France3
+https://www.livehdtv.com/token.php?stream=france3
