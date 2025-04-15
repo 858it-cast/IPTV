@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #photos {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-content: center;
+            align-items: center;
+            grid-gap: 6px;
+        }
+
+        #photos img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (min-width: 1024px) {
+            #photos {
+                grid-template-columns: repeat(9, 1fr);
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        /* Style the header */
+        .header {
+            padding: 5px 1px;
+            background: #ffffff;
+            color: #333BFF;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <a href="https://858it-cast.github.io/IPTV/dtt/"><button> Digitale Terrestre </button></a>
+        <a href="https://858it-cast.github.io/IPTV/news/"><button> News </button></a>
+        <a href="https://858it-cast.github.io/IPTV/doc/"><button> Documentari </button></a>
+        <a href="https://858it-cast.github.io/IPTV/music/"><button> Musica </button></a>
+        <a href="https://858it-cast.github.io/IPTV/smile/"><button> Intrattenimento </button></a>
+		<a href="https://858it-cast.github.io/IPTV/webcam/"><button> Webcam </button></a>
+        <h3>Esteri</h3>
+    </div>
+
+    <div id="photos">
+        
+
+<a href="https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8"><img src="https://camo.githubusercontent.com/ba49665ca2821146c5244dc6dc4d0b217239ef4402e1861c8e1ea6feee66c1ab/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38622f4242435f4f6e655f6c6f676f5f323032312e7376672f36343070782d4242435f4f6e655f6c6f676f5f323032312e7376672e706e67" title="🇬🇧 BBC One" /></a>
+<a href="https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8"><img src="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" title="🇪🇸 RTE La 1" /></a>
+<a href="https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main.m3u8"><img src="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" title="🇪🇸 RTE La 2" /></a>
+
+
+
+		</div>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
