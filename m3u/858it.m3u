@@ -309,10 +309,6 @@ https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main.m3u8
 http://69.64.57.208/france2/mono.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://camo.githubusercontent.com/b77f6d06459eec4eaed95fdbb90d139a113f39577919db13c9de9479fc1165c0/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35302f4672616e63655f355f323031382e7376672f39303070782d4672616e63655f355f323031382e7376672e706e67" ,🇫🇷 France 5
 http://69.64.57.208/france5/mono.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="RTP1.pt" tvg-logo="https://camo.githubusercontent.com/b992fc4f4e679170730ed1bd3d094db2c01a08e834760baba0cb4f5413262441/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f652f65632f525450315f2d5f4c6f676f5f323031362e7376672f36343070782d525450315f2d5f4c6f676f5f323031362e7376672e706e67" ,🇵🇹 RTP 1
-https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="RTP2.pt" tvg-logo="https://i.imgur.com/tMba1GR.png" ,🇵🇹 RTP 2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTP3.pt" tvg-logo="https://camo.githubusercontent.com/246c405aa3651a9314ff4a457db9ee1225dc3daf21ded7a3dbb706c6e3325ad2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f622f62392f527470332e706e67" ,🇵🇹 RTP 3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://camo.githubusercontent.com/906a215bb3a610995fb53b4d6254729253332708d7d8d0ea1983cd0924665f8a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63612f4461735f45727374655f323031342e7376672f36343070782d4461735f45727374655f323031342e7376672e706e67" ,🇩🇪 Das Erste
