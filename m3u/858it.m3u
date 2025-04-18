@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -327,8 +327,10 @@ https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 https://slc.858it-cast.workers.dev/calamosca.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
 https://stream-meteoproject.eu/data/71/master.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu
+#EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu sud
 https://cloud.858it-cast.workers.dev/sestu.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
+https://slc.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Stintino" tvg-logo="https://i.imgur.com/0zn5JRR.png" ,Stintino
 https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
@@ -343,7 +345,7 @@ https://cloud.858it-cast.workers.dev/trento.m3u8
 https://slc.858it-cast.workers.dev/trentosud.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
 https://cloud.858it-cast.workers.dev/rio.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="SintMaarten" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Sint Maarten
+#EXTINF:-1 group-title="Webcam" tvg-id="SintMaarten" tvg-logo="https://i.imgur.com/n7w5v94.png" ,Sint Maarten
 https://cloud.858it-cast.workers.dev/sintmaarten.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
