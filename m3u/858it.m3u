@@ -130,7 +130,7 @@ https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Liv
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/OxDdcOr.png" ,ABC News Australia
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,CBC News (Canada)
-https://apollo.production-public.tubi.io/live/ac-cbc2.m3u8
+https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8
 #EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,Global News (Canada)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,CNN USA
@@ -145,7 +145,7 @@ https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 https://jmp2.uk/sam-DEBD4900001QV.m3u8
 #EXTINF:-1 group-title="News" tvg-id="TheGuardian.uk" tvg-logo="https://i.imgur.com/o9AYq9V.png" ,The Guardian
 https://the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6437/master.m3u8
-#EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/225px-Logo_TVE-24h.svg.png" ,TVE 24h
+#EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" ,TVE 24h
 https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_720.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,Tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
