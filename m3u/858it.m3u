@@ -349,5 +349,5 @@ https://cloud.858it-cast.workers.dev/rio.m3u8
 https://cloud.858it-cast.workers.dev/sintmaarten.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
-#EXTINF:-1 group-title="Casteddu" tvg-id="" tvg-logo="" ,CAG-FIO
+#EXTINF:-1 group-title="Webcam" tvg-id="partita" tvg-logo="" ,CAG-FIO
 https://calcionew.newkso.ru/calcio/calcioX2fiore/mono.m3u8
