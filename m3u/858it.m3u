@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -349,3 +349,5 @@ https://cloud.858it-cast.workers.dev/rio.m3u8
 https://cloud.858it-cast.workers.dev/sintmaarten.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
+#EXTINF:-1 group-title="Extra" tvg-id="Evento1" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Evento 1
+https://calcionew.newkso.ru/calcio/calcioX2serie/mono.m3u8
