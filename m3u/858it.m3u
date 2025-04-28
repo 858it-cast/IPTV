@@ -331,21 +331,19 @@ https://stream-meteoproject.eu/data/71/master.m3u8
 https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
 https://slc.858it-cast.workers.dev/sestu.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Stintino" tvg-logo="https://i.imgur.com/0zn5JRR.png" ,Stintino
-https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
 https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Le Saline" tvg-logo="https://i.imgur.com/bZ46XZ2.png" ,Stintino (Le Saline)
 https://cdn-005.whatsupcams.com/hls/it_stintino02.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Stintino" tvg-logo="https://i.imgur.com/0zn5JRR.png" ,Stintino (Roccaruja)
+https://5e0add8153fcd.streamlock.net:1936/vedetta2/roccaruja-stintino.stream/chunklist_w476248128.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Bolotana" tvg-logo="https://i.imgur.com/mov6iEJ.png" ,Bolotana
 https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w1478421590.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Trento" tvg-logo="https://i.imgur.com/COJOOq6.png" ,Trento
 https://cloud.858it-cast.workers.dev/trento.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento sud
+#EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento nord
 https://slc.858it-cast.workers.dev/trentosud.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
 https://cloud.858it-cast.workers.dev/rio.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="SintMaarten" tvg-logo="https://i.imgur.com/n7w5v94.png" ,Sint Maarten
-https://cloud.858it-cast.workers.dev/sintmaarten.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
