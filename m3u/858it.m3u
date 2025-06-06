@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -299,22 +299,60 @@ https://stream.rdstv.radio/index.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="RadioZetaTV.it" tvg-name="Radio ZETA" tvg-logo="https://i.imgur.com/0MgCm1n.png" ,Radio ZETA
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/412d6450e1cc35238c0e4b5ddc9d60bff5e94233317c68042a3ccc7fa93e600c/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 RSI La Due
+https://vavoo.to/play/3475299702/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://camo.githubusercontent.com/ba49665ca2821146c5244dc6dc4d0b217239ef4402e1861c8e1ea6feee66c1ab/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38622f4242435f4f6e655f6c6f676f5f323032312e7376672f36343070782d4242435f4f6e655f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC One
-https://vavoo.to/play/1174226171/index.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 RTVE La 1
-https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 RTVE La 2
-https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main.m3u8
+https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://camo.githubusercontent.com/72a469f9dc601c6cb22f06648bd63fb62bb4bf7b0e7a368a83866aa6ac6c1101/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f312f31352f4242435f54776f5f6c6f676f5f323032312e7376672f36343070782d4242435f54776f5f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC Two
+https://vavoo.to/play/3188588870/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV1.uk" tvg-logo="https://camo.githubusercontent.com/1c04c896106167a508e21ed7204012b2e9cfde86dc3dcf1d8c70eede9dea0843/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f312f31662f495456315f6c6f676f5f253238323032322532392e7376672f36343070782d495456315f6c6f676f5f253238323032322532392e7376672e706e67" ,🇬🇧 ITV1
+https://vavoo.to/play/1573396436/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://camo.githubusercontent.com/40a817c7fd4304c8968316ea4edf14c1313ee6ff663ad9a72b1473c4b6fd53b3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f642f64382f495456325f6c6f676f5f323032322e7376672f36343070782d495456325f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV2
+https://vavoo.to/play/1222861824/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://camo.githubusercontent.com/b2ca5b5443460230780b4c62cc5d62caee20ec146719019ecd153bab58771f7f/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f362f36372f495456335f6c6f676f5f323032322e7376672f36343070782d495456335f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV3
+https://vavoo.to/play/1971539376/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="C4" tvg-logo="https://camo.githubusercontent.com/2a2e4b401c2898014a23d3f7ca166329d17e74a2f0502e9803d37c35b955f6f8/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f392f39622f4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672f35363970782d4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672e706e67" ,🇬🇧 Channel 4
+https://vavoo.to/play/2042114524/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 TVE La 1
+https://vavoo.to/play/2673626663/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
+https://vavoo.to/play/779986648/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Antena3.es" tvg-logo="https://camo.githubusercontent.com/eaeee0633eb18c603a317477a32fabc4e59a74a46365fb0916bd529aa37b6eab/68747470733a2f2f692e696d6775722e636f6d2f6a3353503442532e706e67" ,🇪🇸 Antena 3
+https://vavoo.to/play/2255480833/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Cuatro.es" tvg-logo="https://camo.githubusercontent.com/74cebe384e15b0f62a2e2c1c12e3cb27e1cfb2540c7fe6a84f4c8ecf01f46302/68747470733a2f2f692e696d6775722e636f6d2f7a524f784e61702e706e67" ,🇪🇸 TVE Cuatro
+https://vavoo.to/play/2673626663/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Telecinco.es" tvg-logo="https://camo.githubusercontent.com/d3b51168868910efef000d1ac55341b304a42682900dcc93e562c3b5707a06ab/68747470733a2f2f692e696d6775722e636f6d2f4a4543734b646b2e706e67" ,🇪🇸 Telecinco
+https://vavoo.to/play/1024256819/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
+https://vavoo.to/play/1678402878/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://camo.githubusercontent.com/5c5438f481954fd319947ac6a064c4793a550682d4a57583ca30adff9240afbf/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35332f4672616e63655f325f323031382e7376672f38383670782d4672616e63655f325f323031382e7376672e706e67" ,🇫🇷 France 2
-http://69.64.57.208/france2/mono.m3u8
+https://vavoo.to/play/3118025835/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://camo.githubusercontent.com/82a58545fc23bcbd69e05c3ab35a9f9c6817cb041ae92c00b66caeb1f0fe881a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64642f4672616e63655f335f323031382e7376672f38393970782d4672616e63655f335f323031382e7376672e706e67" ,🇫🇷 France 3
+https://vavoo.to/play/156852682/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://camo.githubusercontent.com/8f946648f0d7d2043bdc4feb73e44aab3805dad9ead8fe12cc824b39cf9434a2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33622f4672616e63655f345f323031382e7376672f39393870782d4672616e63655f345f323031382e7376672e706e67" ,🇫🇷 France 4
+https://vavoo.to/play/28154726/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://camo.githubusercontent.com/b77f6d06459eec4eaed95fdbb90d139a113f39577919db13c9de9479fc1165c0/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35302f4672616e63655f355f323031382e7376672f39303070782d4672616e63655f355f323031382e7376672e706e67" ,🇫🇷 France 5
-http://69.64.57.208/france5/mono.m3u8
+https://vavoo.to/play/3004974450/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="TV5MondeEU.fr" tvg-logo="https://camo.githubusercontent.com/0062bb8016b7b4d051ad85c20ac3a7a02bd09faa2fed33ae33acea7a5e068d75/68747470733a2f2f692e696d6775722e636f6d2f75506d77546f392e706e67" ,🇫🇷 TV5 Monde Europe
+https://vavoo.to/play/3769189460/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://camo.githubusercontent.com/85af2cb645148083e293627d546e68a5c7feee6ec0f622db55f4652ed1d309ba/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f342f34332f417274655f4c6f676f5f323031372e7376672f313270782d417274655f4c6f676f5f323031372e7376672e706e67" ,🇫🇷 Arte
+https://vavoo.to/play/621108426/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP1.pt" tvg-logo="https://camo.githubusercontent.com/b992fc4f4e679170730ed1bd3d094db2c01a08e834760baba0cb4f5413262441/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f652f65632f525450315f2d5f4c6f676f5f323031362e7376672f36343070782d525450315f2d5f4c6f676f5f323031362e7376672e706e67" ,🇵🇹 RTP 1
+https://vavoo.to/play/3213786206/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP2.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/RTP2_logo_2016.png" ,🇵🇹 RTP 2
+https://vavoo.to/play/756792350/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTP3.pt" tvg-logo="https://camo.githubusercontent.com/246c405aa3651a9314ff4a457db9ee1225dc3daf21ded7a3dbb706c6e3325ad2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f622f62392f527470332e706e67" ,🇵🇹 RTP 3
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
+https://vavoo.to/play/276534702/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://camo.githubusercontent.com/906a215bb3a610995fb53b4d6254729253332708d7d8d0ea1983cd0924665f8a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63612f4461735f45727374655f323031342e7376672f36343070782d4461735f45727374655f323031342e7376672e706e67" ,🇩🇪 Das Erste
-https://s6.hopslan.com/ardX/index.m3u8
+https://vavoo.to/play/1340558123/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ZDF.de" tvg-logo="https://camo.githubusercontent.com/3f42937b57bb374e46adda1a39f59c7b55464ec9e1e9c6c8aeb57dafc3e0318d/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63312f5a44465f6c6f676f2e7376672f36343070782d5a44465f6c6f676f2e7376672e706e67" ,🇩🇪 ZDF
-https://s6.hopslan.com/zdfX/index.m3u8
+https://vavoo.to/play/2357166742/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="3sat.de" tvg-logo="https://camo.githubusercontent.com/25a1f4ca7ca1ce8f49ea93e882d63987a5bf59594e9fe67be0a82831dbbe3569/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38312f337361745f323031392e7376672f36343070782d337361745f323031392e7376672e706e67" ,🇩🇪 3sat
+https://vavoo.to/play/1902600011/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTL.de" tvg-logo="https://e7.pngegg.com/pngimages/35/456/png-clipart-rtl-television-germany-high-definition-television-vox-others-miscellaneous-television-thumbnail.png" ,🇩🇪 RTL
+https://vavoo.to/play/2728959195/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Vox.de" tvg-logo="https://www.liblogo.com/img-logo/vo8796v8bc-vox-logo-vox-logo-png-transparent-amp-svg-vector-freebie-supply.png" ,🇩🇪 Vox
+https://vavoo.to/play/2099765212/index.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Museddu" tvg-logo="https://i.imgur.com/1JNWLBM.png" ,Museddu
 https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TorreBari" tvg-logo="https://i.imgur.com/99uJLx0.png" ,Torre di Bari
