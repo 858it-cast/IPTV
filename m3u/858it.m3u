@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -321,7 +321,7 @@ https://vavoo.to/play/2673626663/index.m3u8
 https://vavoo.to/play/779986648/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Antena3.es" tvg-logo="https://camo.githubusercontent.com/eaeee0633eb18c603a317477a32fabc4e59a74a46365fb0916bd529aa37b6eab/68747470733a2f2f692e696d6775722e636f6d2f6a3353503442532e706e67" ,🇪🇸 Antena 3
 https://vavoo.to/play/2255480833/index.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="Cuatro.es" tvg-logo="https://camo.githubusercontent.com/74cebe384e15b0f62a2e2c1c12e3cb27e1cfb2540c7fe6a84f4c8ecf01f46302/68747470733a2f2f692e696d6775722e636f6d2f7a524f784e61702e706e67" ,🇪🇸 TVE Cuatro
+#EXTINF:-1 group-title="Esteri" tvg-id="Cuatro.es" tvg-logo="https://camo.githubusercontent.com/74cebe384e15b0f62a2e2c1c12e3cb27e1cfb2540c7fe6a84f4c8ecf01f46302/68747470733a2f2f692e696d6775722e636f6d2f7a524f784e61702e706e67" ,🇪🇸 Cuatro
 https://vavoo.to/play/4194733823/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Telecinco.es" tvg-logo="https://camo.githubusercontent.com/d3b51168868910efef000d1ac55341b304a42682900dcc93e562c3b5707a06ab/68747470733a2f2f692e696d6775722e636f6d2f4a4543734b646b2e706e67" ,🇪🇸 Telecinco
 https://vavoo.to/play/1024256819/index.m3u8
