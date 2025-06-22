@@ -133,7 +133,7 @@ https://vavoo.to/play/4104572703/index.m3u8
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,🇨🇦 CBC News
 https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8
-#EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,🇨🇦 Global News (Canada)
+#EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,🇨🇦 Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,🇺🇸 CNN USA
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
