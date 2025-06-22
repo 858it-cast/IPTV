@@ -105,49 +105,51 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="CameradeiDeputati.it" tvg-name="Camera dei Deputati" tvg-logo="https://i.imgur.com/fqGn1k9.png" ,Camera dei Deputati
 https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,Sky TG24
+#EXTINF:-1 group-title="News" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,🇮🇹 Sky TG24
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
-#EXTINF:-1 group-title="News" tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" ,Rai News 24
+#EXTINF:-1 group-title="News" tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" ,🇮🇹 Rai News 24
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
-#EXTINF:-1 group-title="News" tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" ,Euronews Italian
+#EXTINF:-1 group-title="News" tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" ,🇮🇹 Euronews Italian
 https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiYWM3MWRhMTMtNDkwNi00MmU2LWI3OWItNzQ3OGVkN2ZiM2Y5IiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
-#EXTINF:-1 group-title="News" tvg-id="Adnkronos.it" tvg-logo="https://i.imgur.com/mEoDAf1.png" ,Adnkronos
+#EXTINF:-1 group-title="News" tvg-id="Adnkronos.it" tvg-logo="https://i.imgur.com/mEoDAf1.png" ,🇮🇹 Adnkronos
 https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/swG9Q3f.png" ,MSNBC
+#EXTINF:-1 group-title="News" tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/swG9Q3f.png" ,🇺🇸 MSNBC
 https://rachelina.858it-cast.workers.dev/msnbc.m3u8
-#EXTINF:-1 group-title="News" tvg-id="CNNInternationalEurope.us" tvg-logo="https://i.imgur.com/dfxefQw.png" ,CNN International
+#EXTINF:-1 group-title="News" tvg-id="CNNInternationalEurope.us" tvg-logo="https://i.imgur.com/dfxefQw.png" ,🇺🇸 CNN International
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/300px-Aljazeera_eng.svg.png" ,Al Jazeera English
+#EXTINF:-1 group-title="News" tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/300px-Aljazeera_eng.svg.png" ,🇶🇦 Al Jazeera English
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" ,DW English
+#EXTINF:-1 group-title="News" tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" ,🇩🇪 DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="France24English.fr" tvg-logo="https://i.imgur.com/B76eSg2.png" ,France 24
+#EXTINF:-1 group-title="News" tvg-id="France24English.fr" tvg-logo="https://i.imgur.com/B76eSg2.png" ,🇫🇷 France 24 English
 https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/200px-BBC_News_2019.svg.png" ,BBC News
+#EXTINF:-1 group-title="News" tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/200px-BBC_News_2019.svg.png" ,🇬🇧 BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 group-title="News" tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1024px-Sky_News_logo.svg.png" ,Sky News UK
+#EXTINF:-1 group-title="News" tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1024px-Sky_News_logo.svg.png" ,🇬🇧 Sky News UK
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 group-title="News" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/OxDdcOr.png" ,ABC News Australia
+#EXTINF:-1 group-title="News" tvg-id="RTENews.ie" tvg-logo="https://camo.githubusercontent.com/a1b343809073352889f67ff13396b7e6b25b4a10f7706cdea4287adcea8a2a6d/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f372f37382f557064617465645f52542543332538395f4e6577735f616e645f43757272656e745f416666616972735f4c6f676f2e706e67" ,🇮🇪 RTÉ News
+https://vavoo.to/play/4104572703/index.m3u8
+#EXTINF:-1 group-title="News" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/OxDdcOr.png" ,🇦🇺 ABC News Australia
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,CBC News (Canada)
+#EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,🇨🇦 CBC News
 https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8
-#EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,Global News (Canada)
+#EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,🇨🇦 Global News (Canada)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
-#EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,CNN USA
+#EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,🇺🇸 CNN USA
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" ,ABC News
+#EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" ,🇺🇸 ABC News
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 group-title="News" tvg-id="CBSNews247.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" ,CBS News
+#EXTINF:-1 group-title="News" tvg-id="CBSNews247.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" ,🇺🇸 CBS News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62441d6ded1827000763dcda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1cee83-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4bddfb08-ac57-4769-a092-8bfc7ce71e23
-#EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" ,NHK World
+#EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" ,🇯🇵 NHK World
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
-#EXTINF:-1 group-title="News" tvg-id="ReutersTV.us" tvg-name="Reuters" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" ,Reuters
+#EXTINF:-1 group-title="News" tvg-id="ReutersTV.us" tvg-name="Reuters" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" ,🇬🇧 Reuters
 https://jmp2.uk/sam-DEBD4900001QV.m3u8
-#EXTINF:-1 group-title="News" tvg-id="TheGuardian.uk" tvg-logo="https://i.imgur.com/o9AYq9V.png" ,The Guardian
+#EXTINF:-1 group-title="News" tvg-id="TheGuardian.uk" tvg-logo="https://i.imgur.com/o9AYq9V.png" ,🇬🇧 The Guardian
 https://the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6437/master.m3u8
-#EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" ,TVE 24h
+#EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" ,🇪🇸 TVE 24h
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
-#EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,Tagesschau24
+#EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,🇩🇪 Tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Focus.it" tvg-name="Focus" tvg-logo="https://i.imgur.com/M4smqpF.png" ,Focus
 https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
