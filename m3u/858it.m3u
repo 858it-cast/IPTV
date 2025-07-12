@@ -364,15 +364,15 @@ https://vavoo.to/play/756792350/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTP3.pt" tvg-logo="https://camo.githubusercontent.com/246c405aa3651a9314ff4a457db9ee1225dc3daf21ded7a3dbb706c6e3325ad2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f622f62392f527470332e706e67" ,🇵🇹 RTP 3
 https://vavoo.to/play/276534702/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://camo.githubusercontent.com/906a215bb3a610995fb53b4d6254729253332708d7d8d0ea1983cd0924665f8a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63612f4461735f45727374655f323031342e7376672f36343070782d4461735f45727374655f323031342e7376672e706e67" ,🇩🇪 Das Erste
-https://vavoo.to/play/1340558123/index.m3u8
+https://s6.hopslan.com/ardX/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ZDF.de" tvg-logo="https://camo.githubusercontent.com/3f42937b57bb374e46adda1a39f59c7b55464ec9e1e9c6c8aeb57dafc3e0318d/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63312f5a44465f6c6f676f2e7376672f36343070782d5a44465f6c6f676f2e7376672e706e67" ,🇩🇪 ZDF
-https://vavoo.to/play/2357166742/index.m3u8
+https://s6.hopslan.com/zdfX1/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="3sat.de" tvg-logo="https://camo.githubusercontent.com/25a1f4ca7ca1ce8f49ea93e882d63987a5bf59594e9fe67be0a82831dbbe3569/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38312f337361745f323031392e7376672f36343070782d337361745f323031392e7376672e706e67" ,🇩🇪 3sat
 https://vavoo.to/play/1902600011/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTL.de" tvg-logo="https://e7.pngegg.com/pngimages/35/456/png-clipart-rtl-television-germany-high-definition-television-vox-others-miscellaneous-television-thumbnail.png" ,🇩🇪 RTL
-https://vavoo.to/play/2728959195/index.m3u8
+https://s6.hopslan.com/rtl1/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Vox.de" tvg-logo="https://www.liblogo.com/img-logo/vo8796v8bc-vox-logo-vox-logo-png-transparent-amp-svg-vector-freebie-supply.png" ,🇩🇪 Vox
-https://vavoo.to/play/2099765212/index.m3u8
+https://s6.hopslan.com/voxX/index.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Museddu" tvg-logo="https://i.imgur.com/1JNWLBM.png" ,Museddu
 https://cdn-007.whatsupcams.com/hls/it_cardedu01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TorreBari" tvg-logo="https://i.imgur.com/99uJLx0.png" ,Torre di Bari
