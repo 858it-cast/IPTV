@@ -297,6 +297,8 @@ https://cloud.858it-cast.workers.dev/barisardo.m3u8
 https://slc.858it-cast.workers.dev/arbatax.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Poetto" tvg-logo="https://i.imgur.com/QV8pvcd.png" ,Poetto
 https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Poetto2" tvg-logo="https://i.imgur.com/tlbLbuw.png" ,Sella del Diavolo (Poetto)
+https://cdn-007.whatsupcams.com/hls/it_cagliari02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
 https://slc.858it-cast.workers.dev/calamosca.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
