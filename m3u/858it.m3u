@@ -335,6 +335,16 @@ http://185.189.225.150:85/CuatroHD/index.m3u8
 http://185.189.225.150:85/TeleCincoHD/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Lasexta.es" tvg-logo="https://camo.githubusercontent.com/834a525c536dbdccf226b0683ad1918198dd2e81e3c3bd6b98cc344247a9554e/68747470733a2f2f692e696d6775722e636f6d2f6235394d78674d2e706e67" ,🇪🇸 La Sexta
 http://185.189.225.150:85/LaSexta/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
+https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
+#EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://camo.githubusercontent.com/5c5438f481954fd319947ac6a064c4793a550682d4a57583ca30adff9240afbf/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35332f4672616e63655f325f323031382e7376672f38383670782d4672616e63655f325f323031382e7376672e706e67" ,🇫🇷 France 2
+https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
+#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://camo.githubusercontent.com/82a58545fc23bcbd69e05c3ab35a9f9c6817cb041ae92c00b66caeb1f0fe881a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64642f4672616e63655f335f323031382e7376672f38393970782d4672616e63655f335f323031382e7376672e706e67" ,🇫🇷 France 3
+https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
+#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://camo.githubusercontent.com/8f946648f0d7d2043bdc4feb73e44aab3805dad9ead8fe12cc824b39cf9434a2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33622f4672616e63655f345f323031382e7376672f39393870782d4672616e63655f345f323031382e7376672e706e67" ,🇫🇷 France 4
+https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+#EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://camo.githubusercontent.com/b77f6d06459eec4eaed95fdbb90d139a113f39577919db13c9de9479fc1165c0/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35302f4672616e63655f355f323031382e7376672f39303070782d4672616e63655f355f323031382e7376672e706e67" ,🇫🇷 France 5
+https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="TV5MondeEU.fr" tvg-logo="https://camo.githubusercontent.com/0062bb8016b7b4d051ad85c20ac3a7a02bd09faa2fed33ae33acea7a5e068d75/68747470733a2f2f692e696d6775722e636f6d2f75506d77546f392e706e67" ,🇫🇷 TV5 Monde Europe
 https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TV5Monde.fr" tvg-logo="https://camo.githubusercontent.com/aa7447eb26627ea66ee799d2632473b47f6f6545eba5822144840f3dd92043bf/68747470733a2f2f692e696d6775722e636f6d2f4e6379737257482e706e67" ,🇫🇷 TV5 Monde Info
