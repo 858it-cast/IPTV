@@ -211,6 +211,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="DogWhisperer.uk" tvg-logo="https://i.imgur.com/tgWypVJ.png" ,Dog Whisperer with Cesar Millan
 https://jmp2.uk/sam-US3400001FX.m3u8
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="thebobrosschannel.us" tvg-logo="https://i.imgur.com/X8pVhJK.png" ,The Bob Ross Channel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b82075e4391c0008c3c1fe/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c5071-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7b163328-7998-4aee-803b-e7321d13cbf9
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="wipeout.uk" tvg-logo="https://i.imgur.com/kFwfdd5.png" ,WipeOut eXtra
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITBA1400001QN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA1400001QN_20230308T021523SQUARE.png_20230308021523.png" ,FailArmy
