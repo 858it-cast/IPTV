@@ -25,9 +25,9 @@ https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/p
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
 https://tgrsardegna-live.akamaized.net/hls/live/2025572/tgrsardegna/tgrsardegna/playlist.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/412d6450e1cc35238c0e4b5ddc9d60bff5e94233317c68042a3ccc7fa93e600c/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 RSI La Uno
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/412d6450e1cc35238c0e4b5ddc9d60bff5e94233317c68042a3ccc7fa93e600c/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 La Uno
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/b94cf59d17460d3de8a75c610dc97c3bd87c6ed688de5669576175ca8bdc733c/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 RSI La Due
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/b94cf59d17460d3de8a75c610dc97c3bd87c6ed688de5669576175ca8bdc733c/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 La Due
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="20.it" tvg-name="20 Mediaset" tvg-logo="https://i.imgur.com/It13jwX.png" ,20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
