@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -49,7 +49,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Telepace1.it" tvg-name="Telepace" tvg-logo="https://i.imgur.com/a76zssF.png" ,Telepace
 https://64b16f23efbee.streamlock.net/telepace1/telepace1/playlist.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="La7d.it" tvg-name="La7d" tvg-logo="https://i.imgur.com/AOL9nMw.png" ,La7d
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="La7cinema.it" tvg-name="La7 Cinema" tvg-logo="https://camo.githubusercontent.com/1461f80416fdf5b68caab4a795fe3b2a205cf2321f920fa69ba9a859221b8da0/68747470733a2f2f692e696d6775722e636f6d2f6b685077656f6b2e706e67" ,La7 Cinema
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="La5.it" tvg-name="La 5" tvg-logo="https://i.imgur.com/UNyJaho.png" ,La 5
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
@@ -144,7 +144,7 @@ https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBSNews247.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" ,🇺🇸 CBS News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62441d6ded1827000763dcda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1cee83-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4bddfb08-ac57-4769-a092-8bfc7ce71e23
 #EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" ,🇯🇵 NHK World
-https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ReutersTV.us" tvg-name="Reuters" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" ,🇬🇧 Reuters
 https://jmp2.uk/plu-65c109b4d77d450008b7eee5.m3u8
 #EXTINF:-1 group-title="News" tvg-id="TheGuardian.uk" tvg-logo="https://i.imgur.com/o9AYq9V.png" ,🇬🇧 The Guardian
@@ -307,10 +307,26 @@ https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8
 https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
 https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://camo.githubusercontent.com/40a817c7fd4304c8968316ea4edf14c1313ee6ff663ad9a72b1473c4b6fd53b3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f642f64382f495456325f6c6f676f5f323032322e7376672f36343070782d495456325f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV2
+https://viamotionhsi.netplus.ch/live/eds/itv2/browser-dash/itv2.mpd
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://camo.githubusercontent.com/b2ca5b5443460230780b4c62cc5d62caee20ec146719019ecd153bab58771f7f/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f362f36372f495456335f6c6f676f5f323032322e7376672f36343070782d495456335f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV3
+https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV4.uk" tvg-logo="https://camo.githubusercontent.com/e60191184f758dca68b02db41e8b29d55ccdcbe934bba9e22d51ba4b4d0b8ece/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f352f35372f495456345f6c6f676f5f253238323032322532392e7376672f36343070782d495456345f6c6f676f5f253238323032322532392e7376672e706e67" ,🇬🇧 ITV4
+https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="C4.uk" tvg-logo="https://camo.githubusercontent.com/2a2e4b401c2898014a23d3f7ca166329d17e74a2f0502e9803d37c35b955f6f8/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f392f39622f4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672f35363970782d4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672e706e67" ,🇬🇧 Channel 4
+https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="C5.uk" tvg-logo="https://camo.githubusercontent.com/daa597e76e69f2bee41c507a582818c7951bab13ed7cafb818093a0056be8807/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f632f63622f4368616e6e656c5f355f253238554b2532395f323031362e7376672f35333070782d4368616e6e656c5f355f253238554b2532395f323031362e7376672e706e67" ,🇬🇧 Channel 5
+https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 TVE La 1
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP1.pt" tvg-logo="https://camo.githubusercontent.com/b992fc4f4e679170730ed1bd3d094db2c01a08e834760baba0cb4f5413262441/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f652f65632f525450315f2d5f4c6f676f5f323031362e7376672f36343070782d525450315f2d5f4c6f676f5f323031362e7376672e706e67" ,🇵🇹 RTP 1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP2.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/RTP2_logo_2016.png" ,🇵🇹 RTP 2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP3.pt" tvg-logo="https://camo.githubusercontent.com/246c405aa3651a9314ff4a457db9ee1225dc3daf21ded7a3dbb706c6e3325ad2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f622f62392f527470332e706e67" ,🇵🇹 RTP 3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
 https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://camo.githubusercontent.com/5c5438f481954fd319947ac6a064c4793a550682d4a57583ca30adff9240afbf/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35332f4672616e63655f325f323031382e7376672f38383670782d4672616e63655f325f323031382e7376672e706e67" ,🇫🇷 France 2
@@ -323,10 +339,8 @@ https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/768px-Logo_M6_%282020%2C_fond_clair%29.svg.png" ,🇫🇷 M6
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="TV5MondeEU.fr" tvg-logo="https://camo.githubusercontent.com/0062bb8016b7b4d051ad85c20ac3a7a02bd09faa2fed33ae33acea7a5e068d75/68747470733a2f2f692e696d6775722e636f6d2f75506d77546f392e706e67" ,🇫🇷 TV5 Monde Europe
-https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/index.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="TV5Monde.fr" tvg-logo="https://camo.githubusercontent.com/aa7447eb26627ea66ee799d2632473b47f6f6545eba5822144840f3dd92043bf/68747470733a2f2f692e696d6775722e636f6d2f4e6379737257482e706e67" ,🇫🇷 TV5 Monde Info
-https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://images.seeklogo.com/logo-png/50/1/arte-tv-logo-png_seeklogo-508234.png" ,🇫🇷 Arte
+https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" ,🇩🇪 ARD Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 
 #EXTINF:-1 group-title="Esteri" tvg-id="ZDF.de" tvg-logo="https://i.imgur.com/rtLb6m9.png" ,🇩🇪 ZDF
@@ -351,8 +365,6 @@ https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 https://cdn-007.whatsupcams.com/hls/it_cagliari02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
 https://slc.858it-cast.workers.dev/calamosca.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari
-https://stream-meteoproject.eu/data/71/master.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu sud
 https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
@@ -377,5 +389,3 @@ https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playl
 https://live.143b.ch/cam/flux/ts:abr.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 2" tvg-logo="https://i.imgur.com/28OXJcA.png" ,🏴‍☠️ Evento 2
 https://live.143b.ch/cam/flux/ts:abr.m3u8
-
-
