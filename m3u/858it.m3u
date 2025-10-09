@@ -307,9 +307,9 @@ https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8
 https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
 https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://camo.githubusercontent.com/40a817c7fd4304c8968316ea4edf14c1313ee6ff663ad9a72b1473c4b6fd53b3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f642f64382f495456325f6c6f676f5f323032322e7376672f36343070782d495456325f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV2
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://i.imgur.com/2BpUK0W.png" ,🇬🇧 ITV2
 https://viamotionhsi.netplus.ch/live/eds/itv2/browser-dash/itv2.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://camo.githubusercontent.com/b2ca5b5443460230780b4c62cc5d62caee20ec146719019ecd153bab58771f7f/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f362f36372f495456335f6c6f676f5f323032322e7376672f36343070782d495456335f6c6f676f5f323032322e7376672e706e67" ,🇬🇧 ITV3
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://i.imgur.com/JuyM2z5.png" ,🇬🇧 ITV3
 https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ITV4.uk" tvg-logo="https://camo.githubusercontent.com/e60191184f758dca68b02db41e8b29d55ccdcbe934bba9e22d51ba4b4d0b8ece/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f352f35372f495456345f6c6f676f5f253238323032322532392e7376672f36343070782d495456345f6c6f676f5f253238323032322532392e7376672e706e67" ,🇬🇧 ITV4
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
@@ -339,7 +339,7 @@ https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/768px-Logo_M6_%282020%2C_fond_clair%29.svg.png" ,🇫🇷 M6
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://images.seeklogo.com/logo-png/50/1/arte-tv-logo-png_seeklogo-508234.png" ,🇫🇷 Arte
+#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇫🇷 Arte
 https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" ,🇩🇪 ARD Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 
