@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -117,7 +117,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiYWM3MWRhMTMtNDkwNi00MmU2LWI3OWItNzQ3OGVkN2ZiM2Y5IiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Adnkronos.it" tvg-logo="https://i.imgur.com/mEoDAf1.png" ,🇮🇹 Adnkronos
 https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/swG9Q3f.png" ,🇺🇸 MSNBC
+#EXTINF:-1 group-title="News" tvg-id="MSNOW.us" tvg-logo="https://i.imgur.com/Gq2ct19.png" ,🇺🇸 MS NOW
 https://rachelina.858it-cast.workers.dev/msnbc.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNNInternationalEurope.us" tvg-logo="https://i.imgur.com/dfxefQw.png" ,🇺🇸 CNN International
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
@@ -198,9 +198,9 @@ https://jmp2.uk/stvp-GB28000063B
 #EXTINF:-1 group-title="Documentari" tvg-id="6462190b7cb4b1000862dd60" tvg-logo="https://i.imgur.com/k3yGdjs.png" ,Alien Invasion
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/650999b86a841400083bd1ab/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
 #EXTINF:-1 group-title="Documentari" tvg-id="US3300010F5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300010F5_20241105T024313SQUARE.png" ,Ancient Aliens
-https://jmp2.uk/stvp-US3300010F5
-#EXTINF:-1 group-title="Documentari" tvg-id="US900001CX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US900001CX_20240730T012820SQUARE.png" ,Universe: Mysteries Solved
-https://jmp2.uk/stvp-US900001CX
+https://jmp2.uk/plu-6887a8fd8e92b5e0a7244e88.m3u8
+#EXTINF:-1 group-title="Documentari" tvg-id="aa16704e1ee052dea67cee1f79618754" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/aa16704e1ee052dea67cee1f79618754/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1693585686439_AlienNation_HUD_260x147.png" ,Alien Nation
+https://jmp2.uk/rok-aa16704e1ee052dea67cee1f79618754.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Cosmos.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Cosmos_spacetime_odyssey_titlecard.jpg/330px-Cosmos_spacetime_odyssey_titlecard.jpg" ,Cosmos
 https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,Space
@@ -321,6 +321,10 @@ https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
 https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="C5.uk" tvg-logo="https://camo.githubusercontent.com/daa597e76e69f2bee41c507a582818c7951bab13ed7cafb818093a0056be8807/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f632f63622f4368616e6e656c5f355f253238554b2532395f323031362e7376672f35333070782d4368616e6e656c5f355f253238554b2532395f323031362e7376672e706e67" ,🇬🇧 Channel 5
 https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ABCTV.au@NSW" tvg-logo="https://i.imgur.com/DPVQSjM.png" ,🇦🇺 ABC TV
+https://c.mjh.nz/abc-nsw.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ABCEntertains.au@Sydney" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/512px-ABC_Entertains_logo.svg.png" ,🇦🇺 ABC Entertains
+https://c.mjh.nz/abc-me.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 TVE La 1
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
@@ -365,6 +369,8 @@ https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 https://cdn-007.whatsupcams.com/hls/it_cagliari02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
 https://slc.858it-cast.workers.dev/calamosca.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Maddalena" tvg-logo="https://i.imgur.com/0iVZE3e.png" ,Maddalena (Capoterra)
+https://cdn-005.whatsupcams.com/hls/it_capoterra01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu sud
 https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
@@ -388,4 +394,4 @@ https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playl
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
 https://live.143b.ch/cam/flux/ts:abr.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 2" tvg-logo="https://i.imgur.com/28OXJcA.png" ,🏴‍☠️ Evento 2
-https://ms-009.host-cdn.net/hls/llzele2erehnmttc2tumjoeay3243igmzield6mdh,hu6hwavnn3bkqsaf5yq,6o6bwavnn3iecx5xszq,.urlset/master.m3u8
+https://live.143b.ch/cam/flux/ts:abr.m3u8
