@@ -392,7 +392,7 @@ https://cloud.858it-cast.workers.dev/trento.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento nord
 https://slc.858it-cast.workers.dev/trentosud.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
-https://cloud.858it-cast.workers.dev/rio.m3u8
+https://lon.rtsp.me/0W42PVvN4otz8QJIRXtovw/1764851645/hls/F5586F5n.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Warnemünde)
 https://cloud.858it-cast.workers.dev/rostock.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
