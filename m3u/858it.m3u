@@ -49,6 +49,8 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Telepace1.it" tvg-name="Telepace" tvg-logo="https://i.imgur.com/a76zssF.png" ,Telepace
 https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="TelecolorLombardia.it@SD" tvg-logo="https://i.imgur.com/QfJqBno.png" ,Telecolor
+https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="La7cinema.it" tvg-name="La7 Cinema" tvg-logo="https://camo.githubusercontent.com/1461f80416fdf5b68caab4a795fe3b2a205cf2321f920fa69ba9a859221b8da0/68747470733a2f2f692e696d6775722e636f6d2f6b685077656f6b2e706e67" ,La7 Cinema
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="La5.it" tvg-name="La 5" tvg-logo="https://i.imgur.com/UNyJaho.png" ,La 5
