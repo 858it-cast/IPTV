@@ -88,8 +88,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Italia2.it" tvg-name="Italia 2" tvg-logo="https://i.imgur.com/nq48sjO.png" ,Italia 2
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="TGCom24.it" tvg-name="TGCOM 24" tvg-logo="https://i.imgur.com/xautVD8.png" ,TGCOM 24
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556#EXTINF:-1 group-title="Digitale terrestre" tvg-id="TGCom24.it" tvg-name="TGCOM 24" tvg-logo="https://i.imgur.com/xautVD8.png" ,TGCOM 24
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="DMAX.it" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/dmax.png" ,DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
@@ -112,7 +111,7 @@ https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="CameradeiDeputati.it" tvg-name="Camera dei Deputati" tvg-logo="https://i.imgur.com/fqGn1k9.png" ,Camera dei Deputati
 https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,🇮🇹 Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 group-title="News" tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" ,🇮🇹 Rai News 24
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 #EXTINF:-1 group-title="News" tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" ,🇮🇹 Euronews Italian
@@ -193,6 +192,8 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/66177d18c8311c0008d07
 https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="6299e5afdd5833000727e795" tvg-logo="https://i.imgur.com/5pRNTtq.png" ,48 Hours
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6176f39e709f160007ec61c3/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+#EXTINF:-1 group-title="Documentari" tvg-id="USBC390002256" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC390002256_20250805T005743SQUARE.png" ,Cold Case Files
+https://live-manifest.production-public.tubi.io/live/22e85147-dbbf-4e68-8f53-6d6169cd40c4/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVGhostDimension.us" tvg-logo="https://i.imgur.com/XrJFLPQ.png" ,Pluto TV Ghost Dimension
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/619e1bb3e9af5a0007f235ad/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVGhostHunters.us" tvg-logo="https://i.imgur.com/mUCMm5I.png" ,Pluto TV Ghost Hunters
@@ -375,12 +376,16 @@ https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 https://cdn-007.whatsupcams.com/hls/it_cagliari02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
 https://slc.858it-cast.workers.dev/calamosca.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari Liceo Euclide
+https://stream-meteoproject.eu/data/71/master.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Maddalena" tvg-logo="https://i.imgur.com/0iVZE3e.png" ,Maddalena (Capoterra)
 https://cdn-005.whatsupcams.com/hls/it_capoterra01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu sud
 https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
 https://slc.858it-cast.workers.dev/sestu.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Saras" tvg-logo="https://i.imgur.com/m0yPh1M.png" ,Saras
+https://cloud.858it-cast.workers.dev/saras.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
 https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Le Saline" tvg-logo="https://i.imgur.com/bZ46XZ2.png" ,Stintino (Le Saline)
