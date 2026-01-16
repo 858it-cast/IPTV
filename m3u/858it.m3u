@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -14,7 +14,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="La7.it" tvg-name="La7" tvg-logo="https://i.imgur.com/F90mpSa.png" ,La7
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="TV8.it" tvg-name="TV8" tvg-logo="https://i.imgur.com/xvoHVOU.png" ,TV8
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Nove.it" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/nove.png" ,NOVE
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Videolina_Logo.png" ,Videolina
@@ -25,9 +25,9 @@ https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/p
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
 https://tgrsardegna-live.akamaized.net/hls/live/2025572/tgrsardegna/tgrsardegna/playlist.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/412d6450e1cc35238c0e4b5ddc9d60bff5e94233317c68042a3ccc7fa93e600c/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 La Uno
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/27a948804558b292eec3d52175da703c23e007275e9876afbc7ba330b7742726/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 La Uno
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/b94cf59d17460d3de8a75c610dc97c3bd87c6ed688de5669576175ca8bdc733c/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 La Due
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/32633384f01e4b2cbfa78ba9faaadaa9f53ad1ca3280b7f587cbb548eb08d0b9/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 La Due
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="20.it" tvg-name="20 Mediaset" tvg-logo="https://i.imgur.com/It13jwX.png" ,20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
@@ -42,7 +42,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiPremium.it" tvg-name="Rai Premium" tvg-logo="https://i.imgur.com/RKI4nFy.png" ,Rai Premium
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="CieloTV.it" tvg-name="Cielo TV" tvg-logo="https://i.imgur.com/cPluF03.png" ,Cielo TV
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="27Twentyseven.it" tvg-name="27 Twentyseven" tvg-logo="https://i.imgur.com/jgUcnnC.png" ,27 Twentyseven
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="TV2000.va" tvg-name="TV 2000" tvg-logo="https://i.imgur.com/x7RaK3a.png" ,TV 2000
@@ -88,7 +88,8 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Italia2.it" tvg-name="Italia 2" tvg-logo="https://i.imgur.com/nq48sjO.png" ,Italia 2
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556#EXTINF:-1 group-title="Digitale terrestre" tvg-id="TGCom24.it" tvg-name="TGCOM 24" tvg-logo="https://i.imgur.com/xautVD8.png" ,TGCOM 24
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="TGCom24.it" tvg-name="TGCOM 24" tvg-logo="https://i.imgur.com/xautVD8.png" ,TGCOM 24
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="DMAX.it" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/dmax.png" ,DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
@@ -111,7 +112,7 @@ https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="CameradeiDeputati.it" tvg-name="Camera dei Deputati" tvg-logo="https://i.imgur.com/fqGn1k9.png" ,Camera dei Deputati
 https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://i.imgur.com/q4d3Dah.png" ,🇮🇹 Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 #EXTINF:-1 group-title="News" tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" ,🇮🇹 Rai News 24
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16
 #EXTINF:-1 group-title="News" tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" ,🇮🇹 Euronews Italian
@@ -143,7 +144,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" ,🇺🇸 ABC News
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBSNews247.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" ,🇺🇸 CBS News
-https://jmp2.uk/plu-6231ec4b62cd1f0007093c7b.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a6b92f6e22a617379789618/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=04902d7a-a41d-4f89-8449-8c22de2fbe9e&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=ca0a50bb-b626-459f-b988-fccac495b830&userId=&serverSideAds=true
 #EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" ,🇯🇵 NHK World
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ReutersTV.us" tvg-name="Reuters" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" ,🇬🇧 Reuters
@@ -160,20 +161,20 @@ https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://jmp2.uk/stvp-IT3200002L5
 #EXTINF:-1 group-title="Documentari" tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://i.imgur.com/tmtJW6s.png" ,Rai Scuola
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=16
-#EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVDocumentari.it" tvg-logo="https://i.imgur.com/o7KVAIH.png" ,Pluto TV Documentary Italy
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+#EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVDocumentari.it" tvg-logo="https://i.imgur.com/o7KVAIH.png" ,Pluto TV Documentari
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=1f97d57e-5e44-418e-9391-d966bfc77df1&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=3eb75eec-2181-4e14-ba00-fa1402163096&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVNatura.it" tvg-logo="https://i.imgur.com/BN6icaT.png" ,Pluto TV Natura Italy
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802b37709d6b0007b0c549/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60802b37709d6b0007b0c549/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=8060a427-9db6-4085-a98f-5f86c6b76808&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=d3c8948c-cf07-4630-be2a-fb7b355306f2&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="BBCEarth.uk" tvg-logo="https://i.imgur.com/bhhOeJx.png" ,BBC Earth (UK)
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/656535fc2c46f30008870faelivestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=aac5e1e1-be78-480b-b6c0-adc0dbb9f4d5&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=d2c26ff0-2985-4860-b67f-75e526145881&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700006XE_20241203T004820SQUARE.png" ,Dinos 24/7
 https://jmp2.uk/stvp-US3700006XE
 #EXTINF:-1 group-title="Documentari" tvg-id="Smithsonian.br" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/06/Smithsonian-NoCanada-1.png" ,Smithsonian Channel
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6298bd10d88ef000073f16b7/master.m3u8?deviceId=PSID&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6298bd10d88ef000073f16b7/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=8d970e71-27b9-4d96-91a8-cdc5f0e9cc6e&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=5e7914fc-c179-4cca-a5b2-d3b83bb26dcb&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="PBSnature.us" tvg-logo="https://i.imgur.com/o4vBOaG.png" ,PBS Nature
-https://jmp2.uk/plu-640a64bd73e013000893d4e0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/640a64bd73e013000893d4e0/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=3e7f814e-996c-40a2-b21e-1b76694ae616&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=9471d581-4014-4422-99d5-b0aa11131b7f&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="LoveNature.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" ,Love Nature
-https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/66df8a29b25d2b0008fc5fe0/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=a5509829-f967-4538-b2a0-23f50b3f9851&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=dc311b74-16c0-45f8-ba03-ff8717b5bd5f&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoMy5Doc.us" tvg-logo="https://images.pluto.tv/channels/5b85a7582921777994caea63/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=412" ,Pluto My Documentaries
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf901280e3550009139c86/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf901280e3550009139c86&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=475&terminate=false&userId=
 #EXTINF:-1 group-title="Documentari" tvg-id="adventureearth.us" tvg-logo="https://i.imgur.com/lMYsv8k.png" ,Adventure Earth
@@ -187,15 +188,13 @@ https://autentic-autentichistory-1-gb.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="timeline.uk" tvg-logo="https://i.imgur.com/SuOHDL2.png" ,Timeline
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timeline-lggb/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="IT1200001Q8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT1200001Q8_20240521T042246SQUARE.png" ,Storie Criminali
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/66177d18c8311c0008d077d0livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/66177d18c8311c0008d077d0/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=2b87d09e-c34d-416e-aad6-9d25b1a2a183&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=34d54357-3fb9-4a8f-87cd-e33156ba5398&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="Dateline247.us" tvg-logo="https://i.imgur.com/SGDELDm.png" ,Dateline 24/7
 https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="6299e5afdd5833000727e795" tvg-logo="https://i.imgur.com/5pRNTtq.png" ,48 Hours
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6176f39e709f160007ec61c3/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
-#EXTINF:-1 group-title="Documentari" tvg-id="USBC390002256" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC390002256_20250805T005743SQUARE.png" ,Cold Case Files
-https://live-manifest.production-public.tubi.io/live/22e85147-dbbf-4e68-8f53-6d6169cd40c4/playlist.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6176f39e709f160007ec61c3/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=78dca8fe-1e42-454a-9156-0ac0583eab01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=ce61acfe-2dc9-430a-9417-cc60933aac96&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVGhostDimension.us" tvg-logo="https://i.imgur.com/XrJFLPQ.png" ,Pluto TV Ghost Dimension
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/619e1bb3e9af5a0007f235ad/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c45f5a9d40d58066869fa60/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=56b7c12f-bd09-43a6-bf54-9fb8ee7461b1&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=da4e7627-b75d-4121-9d6c-1ad2aad06ad5&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVGhostHunters.us" tvg-logo="https://i.imgur.com/mUCMm5I.png" ,Pluto TV Ghost Hunters
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f27bbe4779de70007a6d1c1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVParanormal.us" tvg-logo="https://i.imgur.com/hUjMstz.png" ,Pluto TV Paranormal
@@ -203,15 +202,13 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5adf96e3e738977e2c
 #EXTINF:-1 group-title="Documentari" tvg-id="MayDay.us" tvg-name="MayDay" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB28000063B_20250811T172943SQUARE.png" ,Mayday: Air Disaster
 https://jmp2.uk/stvp-GB28000063B
 #EXTINF:-1 group-title="Documentari" tvg-id="6462190b7cb4b1000862dd60" tvg-logo="https://i.imgur.com/k3yGdjs.png" ,Alien Invasion
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/650999b86a841400083bd1ab/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6462190b7cb4b1000862dd60/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=be475759-762c-47f5-bd6a-8c47ea3a2d44&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=51d69fd1-dc0d-4b57-9821-60ab2a356663&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="US3300010F5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300010F5_20241105T024313SQUARE.png" ,Ancient Aliens
-https://jmp2.uk/plu-6887a8fd8e92b5e0a7244e88.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6887a8fd8e92b5e0a7244e88/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=396eb22c-6a00-4174-9763-e5296b5a3e38&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=63b61952-1be3-40b2-84d9-73f8e8ce6e2f&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Documentari" tvg-id="aa16704e1ee052dea67cee1f79618754" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/aa16704e1ee052dea67cee1f79618754/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1693585686439_AlienNation_HUD_260x147.png" ,Alien Nation
 https://jmp2.uk/rok-aa16704e1ee052dea67cee1f79618754.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="Cosmos.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Cosmos_spacetime_odyssey_titlecard.jpg/330px-Cosmos_spacetime_odyssey_titlecard.jpg" ,Cosmos
-https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,Space
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61b86c6ef30f5d0007e4c6d1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dbc2f98777f2e0009934ae7/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=a78a5f0a-7e37-47ad-85a4-06fe84a1e95d&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=03ef8823-416b-4a2f-ba84-05a00534b7d6&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="NASATVISSViews.us" tvg-logo="https://i.imgur.com/iwf5IIs.png" ,NASA TV ISS
 https://cloud.858it-cast.workers.dev/iss.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Space Ambient" tvg-logo="https://i.imgur.com/nncVYGE.png" ,Space Ambient
@@ -225,15 +222,15 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITAJ4500016FM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITAJ4500016FM_20230222T012101SQUARE.png_20230222012101.png" ,The Pet Collective
 https://jmp2.uk/stvp-ITAJ4500016FM
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="DogWhisperer.uk" tvg-logo="https://i.imgur.com/tgWypVJ.png" ,Dog Whisperer with Cesar Millan
-https://jmp2.uk/plu-664fd48894d5580008e45e7c.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/66289716039f940008cf20a2/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=48b4e754-6c2c-4265-bc58-8a54bc75ccbe&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=f20930b1-88da-462f-bcbe-d8c93e83a193&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="thebobrosschannel.us" tvg-logo="https://i.imgur.com/X8pVhJK.png" ,The Bob Ross Channel
-https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f36d726234ce10007784f2a/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=eb9fa215-466d-43d4-b083-07b2f39ded65&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=20c9f036-519a-4008-be5b-62c90cafac45&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="wipeout.uk" tvg-logo="https://i.imgur.com/kFwfdd5.png" ,WipeOut eXtra
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITBA1400001QN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA1400001QN_20230308T021523SQUARE.png_20230308021523.png" ,FailArmy
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608014d19a26320007c92ab6/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="6602acadb2abe500081cf28a" tvg-logo="https://images.pluto.tv/channels/6602acadb2abe500081cf28a/colorLogoPNG.png" ,I soliti idioti
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6602acadb2abe500081cf28a/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6602acadb2abe500081cf28a/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=70019aab-225d-4c98-a86d-0d14c4366f78&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=3f5d78d9-3054-4b66-9e6b-cebcf6ec2b3e&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="62bc1f502b70e3000706298e" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" ,South Park
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62bc1f502b70e3000706298e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="Intrattenimento" tvg-logo="https://i.imgur.com/X3YMT1i.png" ,Mr Bean
@@ -265,9 +262,7 @@ https://cloud.858it-cast.workers.dev/progressivehouse.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="MTVBiggestPop.us" tvg-logo="https://i.imgur.com/EWslT7j.png" ,MTV Biggest Pop
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 group-title="Musica" tvg-id="PlutoTVMTVClassic.us" tvg-logo="https://i.imgur.com/jVpBReX.png" ,MTV Classic
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5de91b7ea86ee60009d89e75/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&
-#EXTINF:-1 group-title="Musica" tvg-id="PlutoTVVH1Classics.us" tvg-logo="https://i.imgur.com/wgwEzFo.png" ,Pluto TV VH1 Classics
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6076cd1df8576d0007c82193/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b56a367e170007cd43f4/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=ce29b727-d37a-4fa9-9a9f-c9d95b258fb1&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=06b3459a-736d-4b82-b31a-ed5a1c1c0911&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Musica" tvg-id="Vevo70s.us" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" ,Pluto TV VEVO 70's
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32f26bcd8aea00071240e5/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 group-title="Musica" tvg-id="Vevo80s.us" tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" ,Pluto TV VEVO 80's
@@ -304,47 +299,47 @@ https://stream.rdstv.radio/index.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="RadioZetaTV.it" tvg-name="Radio ZETA" tvg-logo="https://i.imgur.com/0MgCm1n.png" ,Radio ZETA
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/412d6450e1cc35238c0e4b5ddc9d60bff5e94233317c68042a3ccc7fa93e600c/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 RSI La Uno
+#EXTINF:-1 group-title="Esteri" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/27a948804558b292eec3d52175da703c23e007275e9876afbc7ba330b7742726/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 RSI La Uno
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/b94cf59d17460d3de8a75c610dc97c3bd87c6ed688de5669576175ca8bdc733c/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 RSI La Due
+#EXTINF:-1 group-title="Esteri" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/32633384f01e4b2cbfa78ba9faaadaa9f53ad1ca3280b7f587cbb548eb08d0b9/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 RSI La Due
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://camo.githubusercontent.com/ba49665ca2821146c5244dc6dc4d0b217239ef4402e1861c8e1ea6feee66c1ab/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38622f4242435f4f6e655f6c6f676f5f323032312e7376672f36343070782d4242435f4f6e655f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC One
+#EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://camo.githubusercontent.com/49ee80bea32e4cfe78b382f6670209d3628d678b40666cf6e76d99a49046697a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38622f4242435f4f6e655f6c6f676f5f323032312e7376672f36343070782d4242435f4f6e655f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c_output_0.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://camo.githubusercontent.com/72a469f9dc601c6cb22f06648bd63fb62bb4bf7b0e7a368a83866aa6ac6c1101/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f312f31352f4242435f54776f5f6c6f676f5f323032312e7376672f36343070782d4242435f54776f5f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC Two
+#EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://camo.githubusercontent.com/386b9f4f71c5e597c7df295c87cae82b40d1221e4be059f91da3646d75fde5ab/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f312f31352f4242435f54776f5f6c6f676f5f323032312e7376672f36343070782d4242435f54776f5f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC Two
 https://viamotionhsi.netplus.ch/live/eds/bbc2/browser-HLS8/bbc2.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCThree.uk@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/512px-BBC_Three_2022.svg.png" ,🇬🇧 BBC Three
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
 https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="ITV1.uk" tvg-logo="https://camo.githubusercontent.com/1c04c896106167a508e21ed7204012b2e9cfde86dc3dcf1d8c70eede9dea0843/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f312f31662f495456315f6c6f676f5f253238323032322532392e7376672f36343070782d495456315f6c6f676f5f253238323032322532392e7376672e706e67" ,🇬🇧 ITV1
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1280px-ITV1_logo_%282022%29.svg.png" ,🇬🇧 ITV1
 https://aitiviuan.858it-cast.workers.dev/itv1.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://i.imgur.com/2BpUK0W.png" ,🇬🇧 ITV2
 https://viamotionhsi.netplus.ch/live/eds/itv2/browser-dash/itv2.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://i.imgur.com/JuyM2z5.png" ,🇬🇧 ITV3
 https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="ITV4.uk" tvg-logo="https://camo.githubusercontent.com/e60191184f758dca68b02db41e8b29d55ccdcbe934bba9e22d51ba4b4d0b8ece/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f352f35372f495456345f6c6f676f5f253238323032322532392e7376672f36343070782d495456345f6c6f676f5f253238323032322532392e7376672e706e67" ,🇬🇧 ITV4
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV4.uk" tvg-logo="https://i.imgur.com/DYI4IA2.png" ,🇬🇧 ITV4
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="C4.uk" tvg-logo="https://camo.githubusercontent.com/2a2e4b401c2898014a23d3f7ca166329d17e74a2f0502e9803d37c35b955f6f8/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f392f39622f4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672f35363970782d4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672e706e67" ,🇬🇧 Channel 4
+#EXTINF:-1 group-title="Esteri" tvg-id="C4.uk" tvg-logo="https://camo.githubusercontent.com/16b60a8fa1d10130a9b599262765610b31fa1994fffb45a57060c3bb0eba0c04/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f392f39622f4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672f35363970782d4368616e6e656c5f345f2532384f6e5f44656d616e642532395f323032332e7376672e706e67" ,🇬🇧 Channel 4
 https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="C5.uk" tvg-logo="https://camo.githubusercontent.com/daa597e76e69f2bee41c507a582818c7951bab13ed7cafb818093a0056be8807/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f632f63622f4368616e6e656c5f355f253238554b2532395f323031362e7376672f35333070782d4368616e6e656c5f355f253238554b2532395f323031362e7376672e706e67" ,🇬🇧 Channel 5
+#EXTINF:-1 group-title="Esteri" tvg-id="C5.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" ,🇬🇧 Channel 5
 https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCTV.au@NSW" tvg-logo="https://i.imgur.com/DPVQSjM.png" ,🇦🇺 ABC TV
 https://c.mjh.nz/abc-nsw.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCEntertains.au@Sydney" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/512px-ABC_Entertains_logo.svg.png" ,🇦🇺 ABC Entertains
 https://c.mjh.nz/abc-me.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/16f3d41647739d9fc307b70781b4bb727e4f894bb99e113e9f3c5366e64cac08/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 TVE La 1
+#EXTINF:-1 group-title="Esteri" tvg-id="La1.es" tvg-logo="https://camo.githubusercontent.com/46f4d2f8a00c2a8159f53d05c0d2a67125a1ac885a5e73c1413cdb6adc44d66e/68747470733a2f2f692e696d6775722e636f6d2f4e62657369506e2e706e67" ,🇪🇸 TVE La 1
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/64b5f8b442e1eca8ea616ae9be93acd649d83fc4510bc8e2fb7affa9b3de8a49/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
+#EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/ea66c866d820096e2c2837cc0d08f7a52977ae3886bc7f6a5461e2a36acc0645/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
 https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://camo.githubusercontent.com/5c5438f481954fd319947ac6a064c4793a550682d4a57583ca30adff9240afbf/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35332f4672616e63655f325f323031382e7376672f38383670782d4672616e63655f325f323031382e7376672e706e67" ,🇫🇷 France 2
+#EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/512px-France_2_2018.svg.png" ,🇫🇷 France 2
 https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://camo.githubusercontent.com/82a58545fc23bcbd69e05c3ab35a9f9c6817cb041ae92c00b66caeb1f0fe881a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64642f4672616e63655f335f323031382e7376672f38393970782d4672616e63655f335f323031382e7376672e706e67" ,🇫🇷 France 3
+#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" ,🇫🇷 France 3
 https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://camo.githubusercontent.com/8f946648f0d7d2043bdc4feb73e44aab3805dad9ead8fe12cc824b39cf9434a2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33622f4672616e63655f345f323031382e7376672f39393870782d4672616e63655f345f323031382e7376672e706e67" ,🇫🇷 France 4
+#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" ,🇫🇷 France 4
 https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://camo.githubusercontent.com/b77f6d06459eec4eaed95fdbb90d139a113f39577919db13c9de9479fc1165c0/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35302f4672616e63655f355f323031382e7376672f39303070782d4672616e63655f355f323031382e7376672e706e67" ,🇫🇷 France 5
+#EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" ,🇫🇷 France 5
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/768px-Logo_M6_%282020%2C_fond_clair%29.svg.png" ,🇫🇷 M6
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
@@ -358,7 +353,7 @@ https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 https://viamotionhsi.netplus.ch/live/eds/rtl/browser-HLS8/rtl.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTLZwei.de@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png" ,🇩🇪 RTL Zwei
 https://viamotionhsi.netplus.ch/live/eds/rtl2/browser-HLS8/rtl2.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="3sat.de" tvg-logo="https://camo.githubusercontent.com/25a1f4ca7ca1ce8f49ea93e882d63987a5bf59594e9fe67be0a82831dbbe3569/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38312f337361745f323031392e7376672f36343070782d337361745f323031392e7376672e706e67" ,🇩🇪 3sat
+#EXTINF:-1 group-title="Esteri" tvg-id="3sat.de" tvg-logo="https://camo.githubusercontent.com/0e07b41671b8dc82ddede9d94bb665af1fa6fb68edb9a80b0d5d35b679a2f5d8/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38312f337361745f323031392e7376672f36343070782d337361745f323031392e7376672e706e67" ,🇩🇪 3sat
 https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Sat1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/500px-Neues_Sat._1_Logo_transparent.png" ,🇩🇪 Sat.1
 https://s6.hopslan.com/sat1z/index.m3u8
@@ -376,16 +371,12 @@ https://cdn-002.whatsupcams.com/hls/it_cagliari01.m3u8
 https://cdn-007.whatsupcams.com/hls/it_cagliari02.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Calamosca" tvg-logo="https://i.imgur.com/oFXsS4I.png" ,Calamosca
 https://slc.858it-cast.workers.dev/calamosca.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Cagliari" tvg-logo="https://i.imgur.com/iZCQdI2.png" ,Cagliari Liceo Euclide
-https://stream-meteoproject.eu/data/71/master.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Maddalena" tvg-logo="https://i.imgur.com/0iVZE3e.png" ,Maddalena (Capoterra)
 https://cdn-005.whatsupcams.com/hls/it_capoterra01.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Sestu" tvg-logo="https://i.imgur.com/7m8pspt.png" ,Sestu sud
 https://cloud.858it-cast.workers.dev/sestu.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="SestuNord" tvg-logo="https://i.imgur.com/4DSzyST.png" ,Sestu nord
 https://slc.858it-cast.workers.dev/sestu.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Saras" tvg-logo="https://i.imgur.com/m0yPh1M.png" ,Saras
-https://cloud.858it-cast.workers.dev/saras.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Platamona" tvg-logo="https://i.imgur.com/xChxuaK.png" ,Platamona
 https://cdn-007.whatsupcams.com/hls/it_sassari04.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Le Saline" tvg-logo="https://i.imgur.com/bZ46XZ2.png" ,Stintino (Le Saline)
@@ -406,4 +397,3 @@ https://cloud.858it-cast.workers.dev/rostock.m3u8
 https://live.143b.ch/cam/flux/ts:abr.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 2" tvg-logo="https://i.imgur.com/28OXJcA.png" ,🏴‍☠️ Evento 2
 https://live.143b.ch/cam/flux/ts:abr.m3u8
-
