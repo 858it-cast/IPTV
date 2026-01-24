@@ -209,6 +209,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6887a8fd8e92b5e0a7
 https://jmp2.uk/rok-aa16704e1ee052dea67cee1f79618754.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,Space
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dbc2f98777f2e0009934ae7/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId=a78a5f0a-7e37-47ad-85a4-06fe84a1e95d&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid=03ef8823-416b-4a2f-ba84-05a00534b7d6&userId=&serverSideAds=true
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="orbita.space" tvg-logo="https://i.imgur.com/sgzZSda.png" ,Terra dallo Spazio
+https://cloud.858it-cast.workers.dev/orbita.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="NASATVISSViews.us" tvg-logo="https://i.imgur.com/iwf5IIs.png" ,NASA TV ISS
 https://cloud.858it-cast.workers.dev/iss.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Space Ambient" tvg-logo="https://i.imgur.com/nncVYGE.png" ,Space Ambient
@@ -337,7 +339,7 @@ https://viamotionhsi.netplus.ch/live/eds/tf1hd/browser-dash/tf1hd.mpd
 https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" ,🇫🇷 France 3
 https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd
-#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png" ,🇫🇷 France 4
+#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png" ,🇫🇷 France 4
 https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png" ,🇫🇷 France 5
 https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
@@ -389,8 +391,12 @@ https://5e0add8153fcd.streamlock.net:1936/vedetta2/sa-serra.stream/chunklist_w14
 https://cloud.858it-cast.workers.dev/trento.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento nord
 https://slc.858it-cast.workers.dev/trentosud.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Rio" tvg-logo="https://i.imgur.com/fpQPjHT.png" ,Rio
-https://lon.rtsp.me/0W42PVvN4otz8QJIRXtovw/1764851645/hls/F5586F5n.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rio1" tvg-logo="https://i.imgur.com/Cp6bvqC.png" ,Rio 1
+https://cloud.858it-cast.workers.dev/rio1.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rio2" tvg-logo="https://i.imgur.com/ArUViNw.png" ,Rio 2
+https://cloud.858it-cast.workers.dev/rio2.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rio3" tvg-logo="https://i.imgur.com/NedurEB.png" ,Rio 3
+https://cloud.858it-cast.workers.dev/rio3.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Warnemünde)
 https://cloud.858it-cast.workers.dev/rostock.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
