@@ -348,7 +348,7 @@ https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇫🇷/🇩🇪 Arte
 https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/512px-ARD_Dachmarke_2014.svg.png" ,🇩🇪 ARD Das Erste
-https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8 
+https://s6.hopslan.com/ardX/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ZDF.de" tvg-logo="https://i.imgur.com/rtLb6m9.png" ,🇩🇪 ZDF
 https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="RTL.de" tvg-logo="https://i.imgur.com/94K94k2.png" ,🇩🇪 RTL
