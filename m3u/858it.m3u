@@ -402,4 +402,4 @@ https://cloud.858it-cast.workers.dev/rostock.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
 https://live.143b.ch/cam/flux/ts:abr.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 2" tvg-logo="https://i.imgur.com/28OXJcA.png" ,🏴‍☠️ Evento 2
-https://a75.azplay26.me/hls/streama242274/index.m3u8?cst=72502ea329f3a23fc9e4ad5fc7af1b29cst=c2caa7831389bc29dd94bf8e922e70d8cst=2af3fa694b62429d8a9c7217b08fdd69
+https://live.143b.ch/cam/flux/ts:abr.m3u8cst=72502ea329f3a23fc9e4ad5fc7af1b29cst=c2caa7831389bc29dd94bf8e922e70d8cst=2af3fa694b62429d8a9c7217b08fdd69
