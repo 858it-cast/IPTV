@@ -19,10 +19,12 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Videolina_Logo.png" ,Videolina
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/videolina/videolina_live/videolina_live/playlist.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-name="Sardegna 1" tvg-logo="https://camo.githubusercontent.com/9a9efc8bd1ea4c54c0b9452cabffe9c57758ee9607b78f6abf56bc8f9ccc8b7c/68747470733a2f2f692e696d6775722e636f6d2f594e45573268322e706e67" ,Sardegna 1
+#EXTINF:-1 group-title="Digitale terrestre" tvg-name="Sardegna 1" tvg-logo="https://it.wikipedia.org/wiki/File:Logo-sardegna-1.jpg" ,Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
-#EXTINF:-1 group-title="Digitale terrestre" tvg-name="TCS" tvg-logo="https://i.imgur.com/6ZoE7bt.png" ,TCS
+#EXTINF:-1 group-title="Digitale terrestre" tvg-name="TCS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tele_Costa_Smeralda_logo.svg/330px-Tele_Costa_Smeralda_logo.svg.png" ,TCS TeleCostaSmeralda
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
+#EXTINF:-1 group-title="Digitale terrestre" tvg-name="TeleSardegna" tvg-logo="blob:https://imgur.com/97df6080-ad7d-4407-bf86-3509b7ac951c" ,TeleSardegna
+https://streamcdng7-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
 https://tgrsardegna-live.akamaized.net/hls/live/2025572/tgrsardegna/tgrsardegna/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/27a948804558b292eec3d52175da703c23e007275e9876afbc7ba330b7742726/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 La Uno
