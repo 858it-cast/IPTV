@@ -125,7 +125,7 @@ https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
 https://rachelina.858it-cast.workers.dev/msnbc.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNNInternationalEurope.us" tvg-logo="https://i.imgur.com/dfxefQw.png" ,🇺🇸 CNN International
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/300px-Aljazeera_eng.svg.png" ,🇶🇦 Al Jazeera English
+#EXTINF:-1 group-title="News" tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/330px-Aljazeera_eng.svg.png" ,🇶🇦 Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" ,🇩🇪 DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
