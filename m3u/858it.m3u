@@ -141,7 +141,7 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 https://jmp2.uk/stvp-CABC2300009KD
 #EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,🇨🇦 Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
-#EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" ,🇺🇸 CNN USA
+#EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/500px-CNN.svg.png" ,🇺🇸 CNN USA
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ABC_News_solid_black_logo.svg/500px-ABC_News_solid_black_logo.svg.png" ,🇺🇸 ABC News
 https://live-manifest.production-public.tubi.io/live/14e4f5f2-9787-4c49-8554-f2ad109764a7/playlist.m3u8
@@ -167,6 +167,8 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=16
 https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVNatura.it" tvg-logo="https://i.imgur.com/BN6icaT.png" ,🇮🇹 Pluto TV Natura Italy
 https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
+#EXTINF:-1 group-title="Documentari" tvg-id="lovetheplanet_it" tvg-logo="https://lovetvchannels.com/wp-content/uploads/2025/04/AF_LoveThePlanet_Logo_RGB-e1744100840544-768x142.png" ,🇮🇹 Love the Planet
+https://amg01821-amg01821c11-rlaxx-gb-10459.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-lovetheplanetit-rlaxxgb/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="BBCEarth.uk" tvg-logo="https://i.imgur.com/bhhOeJx.png" ,🇬🇧 BBC Earth
 https://live-manifest.production-public.tubi.io/live/88810cb1-e91e-4f19-870b-513ffc9a39cb/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700006XE_20241203T004820SQUARE.png" ,🇺🇸 Dinos 24/7
@@ -220,7 +222,7 @@ https://cloud.858it-cast.workers.dev/iss.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Space Ambient" tvg-logo="https://i.imgur.com/nncVYGE.png" ,Space Ambient
 https://cloud.858it-cast.workers.dev/spaceambient.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="drone.tv" tvg-logo="https://i.imgur.com/XZoZxVW.png" ,Drone TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/3d586f3d-a1eb-400d-b9ab-cb1b85842442/5.m3u8
+https://b72247a4c6664c9aac7855a2b3d5f96d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_DroneTV/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Naturescape1.us" tvg-logo="https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/featuredImage.jpg?fm=jpg&w=1000&h=525&fit=clip&mark=https%3A%2F%2Fpluto-assets.s3.amazonaws.com%2Foptimizely%2Fimages%2Fpluto_logo_solid_white.png&mark-w=200&mark-pad=30&txt=Watch%20Free&txt-size=40&txt-color=ffffff&txt-align=bottom%2Cleft&txt-font=Futura-Bold&txt-pad=38&blend=https%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bc=bottom&bf=crop&ixlib=react-9.1.5" ,Naturescape
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="naturevision.us" tvg-logo="https://i.imgur.com/i7xmq0s.png" ,Naturevision
@@ -305,7 +307,7 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/32633384f01e4b2cbfa78ba9faaadaa9f53ad1ca3280b7f587cbb548eb08d0b9/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 RSI La Due
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://camo.githubusercontent.com/49ee80bea32e4cfe78b382f6670209d3628d678b40666cf6e76d99a49046697a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38622f4242435f4f6e655f6c6f676f5f323032312e7376672f36343070782d4242435f4f6e655f6c6f676f5f323032312e7376672e706e67" ,🇬🇧 BBC One
+#EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/500px-BBC_One_logo_2021.svg.png" ,🇬🇧 BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c_output_0.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/500px-BBC_Two_logo_2021.svg.png" ,🇬🇧 BBC Two
 https://viamotionhsi.netplus.ch/live/eds/bbc2/browser-HLS8/bbc2.m3u8
