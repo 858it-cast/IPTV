@@ -399,7 +399,7 @@ https://cloud.858it-cast.workers.dev/rio1.m3u8
 https://cloud.858it-cast.workers.dev/rio2.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio3" tvg-logo="https://i.imgur.com/NedurEB.png" ,Rio 3
 https://lon.rtsp.me/0W42PVvN4otz8QJIRXtovw/1764851645/hls/F5586F5n.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Corcovado" tvg-logo="https://i.imgur.com/NedurEB.png" ,Rio Corcovado
+#EXTINF:-1 group-title="Webcam" tvg-id="Corcovado" tvg-logo="https://i.imgur.com/VIMEAMs.png" ,Rio Corcovado
 https://cloud.858it-cast.workers.dev/corcovado.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
