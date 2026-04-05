@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://i.imgur.com/CAx7yRm.png" ,Rai 1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://i.imgur.com/zA0PTcs.png" ,Rai 2
@@ -396,8 +396,12 @@ https://cloud.858it-cast.workers.dev/rio1.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio2" tvg-logo="https://i.imgur.com/ArUViNw.png" ,Rio 2
 https://cloud.858it-cast.workers.dev/rio2.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rio3" tvg-logo="https://i.imgur.com/NedurEB.png" ,Rio 3
-https://cloud.858it-cast.workers.dev/rio3.m3u8
-#EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Warnemünde)
+https://lon.rtsp.me/0W42PVvN4otz8QJIRXtovw/1764851645/hls/F5586F5n.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Corcovado" tvg-logo="https://i.imgur.com/NedurEB.png" ,Rio Corcovado
+https://cloud.858it-cast.workers.dev/corcovado.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
+https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/7SnITEq.png" ,Rostock (Warnemünde)
 https://cloud.858it-cast.workers.dev/rostock.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
 https://live.143b.ch/cam/flux/ts:abr.m3u8
