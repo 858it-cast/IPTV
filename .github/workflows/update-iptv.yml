@@ -3,10 +3,15 @@ name: Aggiorna IPTV da M3U
 on:
   push:
     paths:
-      - 'm3u/858it.m3u'  # Si attiva solo quando cambia questo file
+      - 'm3u/858it.m3u'
     branches:
-      - main  # o master, a seconda del branch principale
-  workflow_dispatch:  # Permette esecuzione manuale
+      - main
+  workflow_dispatch:
+
+# IMPORTANTE: Dai i permessi necessari per il push
+permissions:
+  contents: write  # Permette di fare push
+  actions: read
 
 jobs:
   update-iptv:
@@ -16,17 +21,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # Prende tutta la storia per commit corretti
+        fetch-depth: 0
+        # Importante: usa il token con permessi
+        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        # Nessuna dipendenza esterna necessaria (solo librerie standard)
     
     - name: Run update script
       run: |
