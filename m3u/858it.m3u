@@ -149,6 +149,10 @@ https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" ,🇪🇸 TVE 24h
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 group-title="News" tvg-id="RTPNoticias.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" ,🇵🇹 RTP Noticias
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
+#EXTINF:-1 group-title="News" tvg-id="TV5MondeInfo.fr@SD" tvg-logo="https://i.imgur.com/AJx5Fy2.png" ,🇫🇷 TV5Monde Info
+https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,🇩🇪 Tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Focus.it" tvg-name="Focus" tvg-logo="https://i.imgur.com/M4smqpF.png" ,🇮🇹 Focus
@@ -307,8 +311,8 @@ https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb_output_0.m3u8
 https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24_output_0.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/500px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
 https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8_output_0.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="ITV1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/500px-ITV1_logo_%282022%29.svg.png" ,🇬🇧 ITV1
-https://aitiviuan.858it-cast.workers.dev/itv1.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="BBCAmerica.us@East" tvg-logo="https://i.imgur.com/pTiiPz0.png" ,🇬🇧 BBC America
+https://bcovlive-a.akamaihd.net/7f5ec16d102f4b5d92e8e27bc95ff424/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCTV.au@NSW" tvg-logo="https://i.imgur.com/DPVQSjM.png" ,🇦🇺 ABC TV
 https://c.mjh.nz/abc-nsw.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCEntertains.au@Sydney" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/330px-ABC_Entertains_logo.svg.png" ,🇦🇺 ABC Entertains
@@ -317,10 +321,18 @@ https://c.mjh.nz/abc-me.m3u8
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6835a3a03564dbf41f0e0b52&AV_CONTENT_LANGUAGE=sp&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-7&AV_CONTENT_RATING=16&AV_CLIENT_SECTION=RTVE_la1&content_channel_name=LA1&content_livestream=1&AV_CONTENT_PROVIDER=RTVE&ads.vidaa_ads_param=1190602996
 #EXTINF:-1 group-title="Esteri" tvg-id="La2.es" tvg-logo="https://camo.githubusercontent.com/ea66c866d820096e2c2837cc0d08f7a52977ae3886bc7f6a5461e2a36acc0645/68747470733a2f2f692e696d6775722e636f6d2f446d75547744772e706e67" ,🇪🇸 TVE La 2
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6835a3e99ddd66c47904ae38&AV_CONTENT_LANGUAGE=sp&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=16&AV_CLIENT_SECTION=RTVE_la2&content_channel_name=LA2&content_livestream=1&AV_CONTENT_PROVIDER=RTVE&ads.vidaa_ads_param=1190602996
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP1.pt@HD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png" ,🇵🇹 RTP 1
+https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTP2.pt@HD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png",🇵🇹 RTP 2 (720p)
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTPMundo.pt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" ,🇵🇹 RTP Mundo
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/France_2_-_logo_2018.svg/500px-France_2_-_logo_2018.svg.png" ,🇫🇷 France 2
 http://69.64.57.208/france2/mono.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/500px-France_5_-_logo_2018.svg.png" ,🇫🇷 France 5
 http://69.64.57.208/france5/mono.m3u8
+#EXTINF:-1 group-title="Esteri "tvg-id="TV5MondeEurope.fr@SD" tvg-logo="https://i.imgur.com/rPAbMSu.png" ,🇫🇷 TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Arte.de" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇩🇪 Arte
 https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/500px-Das_Erste_2014.svg.png" ,🇩🇪 Das Erste
