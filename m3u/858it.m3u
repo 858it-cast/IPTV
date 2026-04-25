@@ -159,7 +159,7 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Discovery.it" tvg-logo="https://i.imgur.com/eRRExvg.png" ,🇮🇹 Discovery
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="IT3200002L5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200002L5_20241030T140840SQUARE.png" ,🇮🇹 BBC Earth
+#EXTINF:-1 group-title="Documentari" tvg-id="IT3200002L5" tvg-logo="https://images.pluto.tv/channels/656535fc2c46f30008870fae/colorLogoPNG.png" ,🇮🇹 BBC Earth
 https://jmp2.uk/stvp-IT3200002L5
 #EXTINF:-1 group-title="Documentari" tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://i.imgur.com/tmtJW6s.png" ,🇮🇹 Rai Scuola
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=16
@@ -171,7 +171,7 @@ https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
 https://amg01821-amg01821c11-rlaxx-gb-10459.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-lovetheplanetit-rlaxxgb/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="BBCEarth.uk" tvg-logo="https://i.imgur.com/bhhOeJx.png" ,🇬🇧 BBC Earth
 https://live-manifest.production-public.tubi.io/live/88810cb1-e91e-4f19-870b-513ffc9a39cb/playlist.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700006XE_20241203T004820SQUARE.png" ,🇬🇧 Dinos 24/7
+#EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://images.pluto.tv/channels/673bf05ddaad7f0008ac7a5c/colorLogoPNG.png" ,🇬🇧 Dinos 24/7
 https://jmp2.uk/stvp-US3700006XE
 #EXTINF:-1 group-title="Documentari" tvg-id="Smithsonian.br" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/06/Smithsonian-NoCanada-1.png" ,🇺🇸 Smithsonian Channel
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
@@ -205,7 +205,7 @@ https://jmp2.uk/plu-5c45f5a9d40d58066869fa60.m3u8
 https://jmp2.uk/plu-5f27bbe4779de70007a6d1c1.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="690cb9140d121b44ad925ac9" tvg-name="Mayday: Disastro Aereo" tvg-logo="https://images.pluto.tv/channels/690cb9140d121b44ad925ac9/colorLogoPNG_1762957819953.png" ,🇮🇹 Indagini ad Alta Quota
 https://jmp2.uk/plu-690cb9140d121b44ad925ac9.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="MayDay.us" tvg-name="MayDay" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB28000063B_20250811T172943SQUARE.png" ,🇺🇸 Mayday: Air Disaster
+#EXTINF:-1 group-title="Documentari" tvg-id="MayDay.us" tvg-name="MayDay" tvg-logo="https://images.pluto.tv/channels/6852811933a52de120f8b89d/colorLogoPNG_1762230046872.png" ,🇺🇸 Mayday: Air Disaster
 https://jmp2.uk/stvp-GB28000063B
 #EXTINF:-1 group-title="Documentari" tvg-id="6462190b7cb4b1000862dd60" tvg-logo="https://i.imgur.com/k3yGdjs.png" ,🇺🇸 Alien Invasion
 https://jmp2.uk/plu-6462190b7cb4b1000862dd60.m3u8
@@ -233,7 +233,7 @@ https://jmp2.uk/stvp-ITAJ4500016FM
 https://jmp2.uk/plu-60e453641239a700071f53a1.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="thebobrosschannel.us" tvg-logo="https://i.imgur.com/X8pVhJK.png" ,🇺🇸 The Bob Ross Channel
 https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="wipeout.uk" tvg-logo="https://i.imgur.com/kFwfdd5.png" , WipeOut eXtra
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="wipeout.uk" tvg-logo="https://i.imgur.com/kFwfdd5.png" ,WipeOut eXtra
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="ITBA1400001QN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA1400001QN_20230308T021523SQUARE.png_20230308021523.png" ,FailArmy
 https://jmp2.uk/plu-608014d19a26320007c92ab6.m3u8
@@ -241,6 +241,8 @@ https://jmp2.uk/plu-608014d19a26320007c92ab6.m3u8
 https://jmp2.uk/plu-6602acadb2abe500081cf28a.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="62bc1f502b70e3000706298e" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" ,🇮🇹 South Park
 https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="66e06576abec540008cc17a9" tvg-logo="https://images.pluto.tv/channels/66e06576abec540008cc17a9/colorLogoPNG.png" ,🇬🇧 The Graham Norton Show
+https://jmp2.uk/plu-66e06576abec540008cc17a9.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-logo="https://i.imgur.com/X3YMT1i.png" ,🇬🇧 Mr Bean
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="GB300001QO" tvg-name="Conan O'Brien TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300001QO_20240319T052351SQUARE.png" ,🇺🇸 Conan O'Brien TV
@@ -253,7 +255,7 @@ https://jmp2.uk/plu-6913e381b6bf26bb6e798c13.m3u8
 https://jmp2.uk/plu-691b023a7613e09a8b209539.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="65cb73d33ba51e00084cabad" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Star_Trek_Voyager_title.svg/500px-Star_Trek_Voyager_title.svg.png" ,🇮🇹 Star Trek Voyager
 https://jmp2.uk/plu-65cb73d33ba51e00084cabad.m3u8
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="GBBD1500003SD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1500003SD_20241112T093152SQUARE.png" ,Caminetto HD
+#EXTINF:-1 group-title="Intrattenimento" tvg-id="GBBD1500003SD" tvg-logo="https://i.imgur.com/PXT4ngW.png" ,Caminetto HD
 https://jmp2.uk/stvp-IT2200001FW
 #EXTINF:-1 group-title="Musica" tvg-id="RadioCapitalTV.it" tvg-logo="https://i.imgur.com/HnN5pMz.png" ,Radio Capital TV
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
