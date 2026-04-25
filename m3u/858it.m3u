@@ -159,7 +159,7 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Discovery.it" tvg-logo="https://i.imgur.com/eRRExvg.png" ,🇮🇹 Discovery
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="IT3200002L5" tvg-logo="https://images.pluto.tv/channels/656535fc2c46f30008870fae/colorLogoPNG.png" ,🇮🇹 BBC Earth
+#EXTINF:-1 group-title="Documentari" tvg-id="IT3200002L5" tvg-logo="https://i.imgur.com/Kn3qYr5.png" ,🇮🇹 BBC Earth
 https://jmp2.uk/stvp-IT3200002L5
 #EXTINF:-1 group-title="Documentari" tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://i.imgur.com/tmtJW6s.png" ,🇮🇹 Rai Scuola
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=16
@@ -171,7 +171,7 @@ https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
 https://amg01821-amg01821c11-rlaxx-gb-10459.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-lovetheplanetit-rlaxxgb/playlist.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="BBCEarth.uk" tvg-logo="https://i.imgur.com/bhhOeJx.png" ,🇬🇧 BBC Earth
 https://live-manifest.production-public.tubi.io/live/88810cb1-e91e-4f19-870b-513ffc9a39cb/playlist.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://images.pluto.tv/channels/673bf05ddaad7f0008ac7a5c/colorLogoPNG.png" ,🇬🇧 Dinos 24/7
+#EXTINF:-1 group-title="Documentari" tvg-id="Dinos247.us" tvg-logo="https://i.imgur.com/6pGK9eU.png" ,🇬🇧 Dinos 24/7
 https://jmp2.uk/stvp-US3700006XE
 #EXTINF:-1 group-title="Documentari" tvg-id="Smithsonian.br" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/06/Smithsonian-NoCanada-1.png" ,🇺🇸 Smithsonian Channel
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
@@ -209,7 +209,7 @@ https://jmp2.uk/plu-690cb9140d121b44ad925ac9.m3u8
 https://jmp2.uk/stvp-GB28000063B
 #EXTINF:-1 group-title="Documentari" tvg-id="6462190b7cb4b1000862dd60" tvg-logo="https://i.imgur.com/k3yGdjs.png" ,🇺🇸 Alien Invasion
 https://jmp2.uk/plu-6462190b7cb4b1000862dd60.m3u8
-#EXTINF:-1 group-title="Documentari" tvg-id="US3300010F5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300010F5_20241105T024313SQUARE.png" ,🇺🇸 Ancient Aliens
+#EXTINF:-1 group-title="Documentari" tvg-id="US3300010F5" tvg-logo="https://i.imgur.com/2oY3x0z.png" ,🇺🇸 Ancient Aliens
 https://aenetworks.global.transmit.live/hls/68b709bb2119c010f1166417/v1/ae_networks_ancientaliens_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1852&wurl_name=AncientAliens&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
 #EXTINF:-1 group-title="Documentari" tvg-id="aa16704e1ee052dea67cee1f79618754" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/aa16704e1ee052dea67cee1f79618754/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1693585686439_AlienNation_HUD_260x147.png" ,🇺🇸 Alien Nation
 https://jmp2.uk/rok-aa16704e1ee052dea67cee1f79618754.m3u8
