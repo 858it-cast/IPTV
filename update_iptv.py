@@ -21,7 +21,7 @@ GROUP_TO_FOLDER = {
 }
 
 # Percorsi
-REPO_ROOT = Path(__file__parent)
+REPO_ROOT = Path(__file__).parent  # CORRETTO: .parent invece di __file__parent
 M3U_FILE = REPO_ROOT / "m3u" / "858it.m3u"
 
 def parse_m3u(m3u_path):
