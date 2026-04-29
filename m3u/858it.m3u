@@ -385,6 +385,8 @@ https://cloud.858it-cast.workers.dev/trento.m3u8
 https://cloud.858it-cast.workers.dev/trento_boutique.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="TrentoSud" tvg-logo="https://i.imgur.com/rbIsm9n.png" ,Trento nord
 https://slc.858it-cast.workers.dev/trentosud.m3u8
+#EXTINF:-1 group-title="Webcam" tvg-id="Martignano" tvg-logo="https://i.imgur.com/bboPg1Z.png" ,Martignano
+https://slc.858it-cast.workers.dev/martignano.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/7SnITEq.png" ,Rostock (Warnemünde)
