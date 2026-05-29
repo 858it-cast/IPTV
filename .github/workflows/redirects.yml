@@ -2,7 +2,7 @@ name: Generate STRM-as-M3U8 Files
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # Esegue ogni ora al minuto 0
+    - cron: '10 * * * *'  # Esegue ogni ora al minuto 10
 
 jobs:
   generate-strm-files:
