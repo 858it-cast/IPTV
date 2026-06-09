@@ -189,8 +189,6 @@ https://cloud.858it-cast.workers.dev/orbita.m3u8
 https://cloud.858it-cast.workers.dev/iss.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Space Ambient" tvg-logo="https://i.imgur.com/nncVYGE.png" ,Space Ambient
 https://cloud.858it-cast.workers.dev/spaceambient.m3u8
-#EXTINF:-1 group-title="Intrattenimento" tvg-id="Sardinia4K" tvg-logo="https://i.imgur.com/IFJ9PKs.png" ,Sardinia
-https://cloud.858it-cast.workers.dev/sardinia.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="drone.tv" tvg-logo="https://i.imgur.com/XZoZxVW.png" ,Drone TV
 https://b72247a4c6664c9aac7855a2b3d5f96d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_DroneTV/playlist.m3u8
 #EXTINF:-1 group-title="Intrattenimento" tvg-id="Naturescape1.us" tvg-logo="https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/featuredImage.jpg?fm=jpg&w=1000&h=525&fit=clip&mark=https%3A%2F%2Fpluto-assets.s3.amazonaws.com%2Foptimizely%2Fimages%2Fpluto_logo_solid_white.png&mark-w=200&mark-pad=30&txt=Watch%20Free&txt-size=40&txt-color=ffffff&txt-align=bottom%2Cleft&txt-font=Futura-Bold&txt-pad=38&blend=https%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bc=bottom&bf=crop&ixlib=react-9.1.5" ,Naturescape
