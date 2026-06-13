@@ -17,6 +17,10 @@ https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="Nove.it" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/nove.png" ,NOVE
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/27a948804558b292eec3d52175da703c23e007275e9876afbc7ba330b7742726/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 La Uno (Svizzera)
+https://nl1.dstv.cx/RSILa1/index.m3u8
+#EXTINF:-1 group-title="Digitale terrestre" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/32633384f01e4b2cbfa78ba9faaadaa9f53ad1ca3280b7f587cbb548eb08d0b9/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 La Due (Svizzera)
+https://nl1.dstv.cx/RSILa2/index.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Videolina_Logo.png" ,Videolina
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/videolina/videolina_live/videolina_live/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="Sardegna 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo-sardegna-1.jpg/500px-Logo-sardegna-1.jpg" ,Sardegna 1
@@ -291,6 +295,10 @@ https://stream.rdstv.radio/index.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="RadioZetaTV.it" tvg-name="Radio ZETA" tvg-logo="https://i.imgur.com/0MgCm1n.png" ,Radio ZETA
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="launo.ch" tvg-logo="https://camo.githubusercontent.com/27a948804558b292eec3d52175da703c23e007275e9876afbc7ba330b7742726/68747470733a2f2f692e696d6775722e636f6d2f6a386f67626c692e706e67" ,🇨🇭 RSI La Uno
+https://nl1.dstv.cx/RSILa1/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ladue.ch" tvg-logo="https://camo.githubusercontent.com/32633384f01e4b2cbfa78ba9faaadaa9f53ad1ca3280b7f587cbb548eb08d0b9/68747470733a2f2f692e696d6775722e636f6d2f766d36326833742e706e67" ,🇨🇭 RSI La Due
+https://nl1.dstv.cx/RSILa2/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/500px-BBC_One_logo_2021.svg.png" ,🇬🇧 BBC One
 https://bibisiuan.858it-cast.workers.dev/bbcone.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/500px-BBC_Two_logo_2021.svg.png" ,🇬🇧 BBC Two
