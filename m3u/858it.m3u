@@ -297,7 +297,6 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://cdn.stmify.com/bbc/stream/BBC_ONE_WEST/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/500px-BBC_Two_logo_2021.svg.png" ,🇬🇧 BBC Two
 https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd
-
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCThree.uk@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/330px-BBC_Three_2022.svg.png" ,🇬🇧 BBC Three
 https://cdn.stmify.com/bbc/stream/BBC_THREE/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/500px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
@@ -317,11 +316,19 @@ https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTPMundo.pt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" ,🇵🇹 RTP Mundo
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
-https://istranzos.858it-cast.workers.dev/tf1.m3u8
+http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/France_2_-_logo_2018.svg/500px-France_2_-_logo_2018.svg.png" ,🇫🇷 France 2
-http://69.64.57.208/france2/mono.m3u8
+https://ullalla.858it-cast.workers.dev/france2.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/France_3_-_logo_2018.svg/500px-France_3_-_logo_2018.svg.png" ,🇫🇷 France 3
+https://ullalla.858it-cast.workers.dev/france3.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/France_4_-_logo_2018.svg/500px-France_4_-_logo_2018.svg.png" ,🇫🇷 France 4
+https://ullalla.858it-cast.workers.dev/france4.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/500px-France_5_-_logo_2018.svg.png" ,🇫🇷 France 5
-http://69.64.57.208/france5/mono.m3u8
+http://145.239.5.177/305/index.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" ,🇫🇷 M6
+https://ullalla.858it-cast.workers.dev/m6.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇫🇷 Arte
+https://ullalla.858it-cast.workers.dev/arte.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TV5MondeEurope.fr@SD" tvg-logo="https://i.imgur.com/rPAbMSu.png" ,🇫🇷 TV5Monde Europe
 https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Arte.de" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇩🇪 Arte
