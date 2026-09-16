@@ -22,7 +22,7 @@ https://sgrauso.858it-cast.workers.dev/videolina.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="Sardegna 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo-sardegna-1.jpg/500px-Logo-sardegna-1.jpg" ,Sardegna 1
 https://sgrauso.858it-cast.workers.dev/sardegna1.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-name="TeleSardegna" tvg-logo="https://i.imgur.com/USA9Nic.png" ,TeleSardegna
-https://streamcdng7-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
+https://f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95701787/z3dZO4LpABmG/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="RaiTGRSardegna.it" tvg-name="Rai 3 Sardegna" tvg-logo="https://www.rai.it/dl/img/2022/10/10/1600x900_1665392822297_logo%20rai%20sardegna%2010.22.jpg" ,Rai 3 Sardegna
 https://tgrsardegna-live.akamaized.net/hls/live/2025572/tgrsardegna/tgrsardegna/playlist.m3u8
 #EXTINF:-1 group-title="Digitale terrestre" tvg-id="20.it" tvg-name="20 Mediaset" tvg-logo="https://i.imgur.com/It13jwX.png" ,20 Mediaset
@@ -194,7 +194,7 @@ https://jmp2.uk/plu-690cb9140d121b44ad925ac9.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="MayDay.us" tvg-name="MayDay" tvg-logo="https://images.pluto.tv/channels/6852811933a52de120f8b89d/colorLogoPNG_1762230046872.png" ,🇺🇸 Mayday: Air Disaster
 https://jmp2.uk/stvp-GB28000063B
 #EXTINF:-1 group-title="Documentari" tvg-id="US3300010F5" tvg-logo="https://i.imgur.com/2oY3x0z.png" ,🇺🇸 Ancient Aliens
-https://aenetworks.global.transmit.live/hls/68b709bb2119c010f1166417/v1/ae_networks_ancientaliens_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1852&wurl_name=AncientAliens&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
+https://b9554f56.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VmlkYWEtdXNfQW5jaWVudEFsaWVuc19ITFM/playlist.m3u8?ads.wurl_channel=1852&ads.wurl_name=AncientAliens&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10617
 #EXTINF:-1 group-title="Documentari" tvg-id="aa16704e1ee052dea67cee1f79618754" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/aa16704e1ee052dea67cee1f79618754/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1693585686439_AlienNation_HUD_260x147.png" ,🇺🇸 Alien Nation
 https://jmp2.uk/rok-aa16704e1ee052dea67cee1f79618754.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="5dbc2f98777f2e0009934ae7" tvg-logo="https://i.imgur.com/CTqtOdl.png" ,🇺🇸 Space
@@ -313,20 +313,14 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTPMundo.pt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" ,🇵🇹 RTP Mundo
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="TF1.fr" tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" ,🇫🇷 TF1
-http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/France_2_-_logo_2018.svg/500px-France_2_-_logo_2018.svg.png" ,🇫🇷 France 2
-https://ullalla.858it-cast.workers.dev/france2.m3u8
+http://5.180.164.197:8080/FRANCE2/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/France_3_-_logo_2018.svg/500px-France_3_-_logo_2018.svg.png" ,🇫🇷 France 3
-https://ullalla.858it-cast.workers.dev/france3.m3u8
+http://5.180.164.197:8080/FRANCE3/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/France_4_-_logo_2018.svg/500px-France_4_-_logo_2018.svg.png" ,🇫🇷 France 4
-https://ullalla.858it-cast.workers.dev/france4.m3u8
+http://5.180.164.197:8080/FRANCE4/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/500px-France_5_-_logo_2018.svg.png" ,🇫🇷 France 5
-http://145.239.5.177/305/index.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" ,🇫🇷 M6
-https://ullalla.858it-cast.workers.dev/m6.m3u8
-#EXTINF:-1 group-title="Esteri" tvg-id="Arte.fr" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇫🇷 Arte
-https://ullalla.858it-cast.workers.dev/arte.m3u8
+http://5.180.164.197:8080/FRANCE5/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="TV5MondeEurope.fr@SD" tvg-logo="https://i.imgur.com/rPAbMSu.png" ,🇫🇷 TV5Monde Europe
 https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Arte.de" tvg-logo="https://i.imgur.com/ZOGuJnQ.png" ,🇩🇪 Arte
@@ -336,9 +330,9 @@ https://s6.hopslan.com/ardX/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ZDF.de" tvg-logo="https://i.imgur.com/rtLb6m9.png" ,🇩🇪 ZDF
 https://s6.hopslan.com/zdfX1/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTL.de" tvg-logo="https://i.imgur.com/94K94k2.png" ,🇩🇪 RTL
-https://s6.hopslan.com/rtla11/index.m3u8
+https://dash4.antik.sk/live/test_rtl_ger_tizen/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="RTLZwei.de@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/500px-RTLZWEI_Logo_2019.svg.png" ,🇩🇪 RTL Zwei
-https://s6.hopslan.com/rtla11/index.m3u8
+https://dash4.antik.sk/live/test_rtl_zwei_tizen/playlist.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Sat1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/500px-Neues_Sat._1_Logo_transparent.png" ,🇩🇪 Sat.1
 https://s6.hopslan.com/sat1z/index.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="Vox.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/VOX_Logo_2013.svg/330px-VOX_Logo_2013.svg.png" ,🇩🇪 Vox
