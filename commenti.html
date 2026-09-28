@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Commenti Scorrevoli</title>
+
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  #ticker-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  #ticker-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+  .animate-scroll {
+    animation: scrollUp 25s linear infinite;
+    animation-delay: 5s;
+  }
+
+  .comment-card {
+    padding: 15px;
+    margin: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #e53632;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .comment-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .comment-author {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .comment-date {
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+  }
+
+  .comment-text {
+    word-wrap: break-word;
+    margin-top: 4px;
+  }
+
+  @keyframes scrollUp {
+    0% { top: 0; }
+    100% { top: var(--scroll-distance, -50%); }
+  }
+
+  #ticker-container:hover .animate-scroll {
+    animation-play-state: paused;
+  }
+
+  /* MOBILE: scroll naturale */
+  @media (max-width: 768px) {
+    #ticker-container {
+      height: auto !important;
+      overflow-y: auto !important;
+    }
+
+    #ticker-content {
+      position: relative !important;
+      animation: none !important;
+      top: 0 !important;
+    }
+
+    .animate-scroll {
+      animation: none !important;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div id="ticker-container">
+  <div id="ticker-content">Caricamento commenti in corso...</div>
+</div>
+
+<script>
+const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQbzvXIryswIchF7PMrZxkMS_YwjkNPv4mMiFprPqSjuO0PMgMwI8glWZUA0j1JYlJR_174P8ou55xj/pub?output=csv";
+
+function parseCSV(text) {
+  let lines = [], row = [""], inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    let c = text[i], n = text[i + 1];
+    if (c === '"') {
+      if (inQuotes && n === '"') { row[row.length - 1] += '"'; i++; }
+      else { inQuotes = !inQuotes; }
+    } else if (c === ',' && !inQuotes) row.push("");
+    else if ((c === '\r' || c === '\n') && !inQuotes) {
+      if (c === '\r' && n === '\n') i++;
+      lines.push(row); row = [""];
+    } else row[row.length - 1] += c;
+  }
+  if (row.length > 1 || row[0] !== "") lines.push(row);
+  return lines;
+}
+
+fetch(url)
+  .then(r => r.text())
+  .then(data => {
+    const rows = parseCSV(data);
+    const contentDiv = document.getElementById('ticker-content');
+    const containerDiv = document.getElementById('ticker-container');
+
+    let html = "";
+
+    for (let i = 1; i < rows.length; i++) {
+      const cols = rows[i];
+      let date = cols[0]?.trim() || "";
+      let comment = cols[3]?.trim() || "";
+      let author = cols[4]?.trim() || "Anonimo";
+
+      if (comment) {
+        html += `
+          <div class="comment-card">
+            <div class="comment-meta">
+              <span class="comment-author">${author}</span>
+              <span class="comment-date">${date}</span>
+            </div>
+            <div class="comment-text">${comment}</div>
+          </div>`;
+      }
+    }
+
+    if (!html) {
+      contentDiv.innerHTML = "<div class='comment-card'>Nessun commento inserito.</div>";
+      return;
+    }
+
+    contentDiv.innerHTML = html;
+
+    /* MOBILE: scroll naturale */
+    if (window.innerWidth < 768) {
+      contentDiv.style.position = "relative";
+      containerDiv.style.height = "auto";
+      containerDiv.style.overflowY = "auto";
+      return;
+    }
+
+    /* DESKTOP: animazione */
+    setTimeout(() => {
+      const fullHeight = contentDiv.offsetHeight;
+      const containerHeight = containerDiv.offsetHeight;
+
+      if (fullHeight <= containerHeight) return;
+
+      const spacer = 40;
+      contentDiv.innerHTML = html + `<div style="height:${spacer}px;"></div>` + html;
+
+      document.documentElement.style.setProperty('--scroll-distance', `-${fullHeight + spacer}px`);
+
+      const duration = Math.max(15, Math.round((fullHeight + spacer) / 33));
+      contentDiv.style.animationDuration = duration + "s";
+      contentDiv.classList.add("animate-scroll");
+
+    }, 150);
+  });
+</script>
+
+</body>
+</html>
