@@ -120,15 +120,15 @@ https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00
 #EXTINF:-1 group-title="News" tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/330px-BBC_News_2022_%28Alt%29.svg.png" ,🇬🇧 BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 group-title="News" tvg-id="SkyNews.uk" tvg-logo="https://images.pluto.tv/channels/55b285cd2665de274553d66f/colorLogoPNG.png" ,🇬🇧 Sky News UK
-https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
+https://jmp2.uk/stvp-IT3400003D6
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/OxDdcOr.png" ,🇦🇺 ABC News
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBCNewsNetwork.ca" tvg-logo="https://i.imgur.com/SjTdhvJ.png" ,🇨🇦 CBC News
-https://jmp2.uk/stvp-CABC2300009KD
+https://live-manifest.production-public.tubi.io/live/08b1a540-5618-46ce-b6e2-c0dfd1e8786f/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="GlobalNews.ca" tvg-logo="https://i.imgur.com/3k7pLMD.png" ,🇨🇦 Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/500px-CNN.svg.png" ,🇺🇸 CNN USA
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+https://rachelina.858it-cast.workers.dev/cnn.m3u8
 #EXTINF:-1 group-title="News" tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ABC_News_solid_black_logo.svg/500px-ABC_News_solid_black_logo.svg.png" ,🇺🇸 ABC News
 https://live-manifest.production-public.tubi.io/live/14e4f5f2-9787-4c49-8554-f2ad109764a7/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="CBSNews247.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/500px-CBS_News_logo_%282020%29.svg.png" ,🇺🇸 CBS News
@@ -139,8 +139,6 @@ https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="24h.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" ,🇪🇸 TVE 24h
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
-#EXTINF:-1 group-title="News" tvg-id="RTPNoticias.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" ,🇵🇹 RTP Noticias
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-id="TV5MondeInfo.fr@SD" tvg-logo="https://i.imgur.com/AJx5Fy2.png" ,🇫🇷 TV5Monde Info
 https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 #EXTINF:-1 group-title="News" tvg-id="Tagesschau.de" tvg-logo="https://sender.epglogos.de/302x190_w/100.png" ,🇩🇪 Tagesschau24
@@ -184,7 +182,7 @@ https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="Dateline247.us" tvg-logo="https://i.imgur.com/SGDELDm.png" ,🇺🇸 Dateline
 https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="6299e5afdd5833000727e795" tvg-logo="https://i.imgur.com/5pRNTtq.png" ,🇺🇸 48 Hours
-https://jmp2.uk/plu-6176f39e709f160007ec61c3.m3u8
+https://jmp2.uk/stvp-US1000005GY
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVParanormal.us" tvg-logo="https://i.imgur.com/hUjMstz.png" ,🇮🇹 Pluto TV Paranormal
 https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8
 #EXTINF:-1 group-title="Documentari" tvg-id="PlutoTVGhostHunters.us" tvg-logo="https://i.imgur.com/mUCMm5I.png" ,🇺🇸 Pluto TV Ghost Hunters
@@ -292,15 +290,29 @@ https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 group-title="Musica" tvg-id="RadioZetaTV.it" tvg-name="Radio ZETA" tvg-logo="https://i.imgur.com/0MgCm1n.png" ,Radio ZETA
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/500px-BBC_One_logo_2021.svg.png" ,🇬🇧 BBC One
-https://uetestina.858it-cast.workers.dev/bbc1.m3u8
+https://albione.858it-cast.workers.dev/bbc1.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBC2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/500px-BBC_Two_logo_2021.svg.png" ,🇬🇧 BBC Two
-https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd
+https://albione.858it-cast.workers.dev/bbc2.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCThree.uk@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/330px-BBC_Three_2022.svg.png" ,🇬🇧 BBC Three
-https://cdn.stmify.com/bbc/stream/BBC_THREE/hevc_iptv_mse_v0.mpd
+https://albione.858it-cast.workers.dev/bbc3.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCFour.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/500px-BBC_Four_logo_2021.svg.png" ,🇬🇧 BBC Four
-https://cdn.stmify.com/bbc/stream/BBC_FOUR/hevc_iptv_mse_v0.mpd
+https://albione.858it-cast.workers.dev/bbc4.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="BBCScotland.uk@UKHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png" ,🇬🇧 BBC Scotland
-https://cdn.stmify.com/bbc/stream/BBC_SCOTLAND/hevc_iptv_mse_v0.mpd
+https://albione.858it-cast.workers.dev/scotland.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV2.uk" tvg-logo="https://i.imgur.com/2BpUK0W.png" ,🇬🇧 ITV2
+https://albione.858it-cast.workers.dev/itv2.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV3.uk" tvg-logo="https://i.imgur.com/JuyM2z5.png" ,🇬🇧 ITV3
+https://albione.858it-cast.workers.dev/itv3.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="ITV4.uk" tvg-logo="https://i.imgur.com/DYI4IA2.png" ,🇬🇧 ITV4
+https://albione.858it-cast.workers.dev/itv4.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="C4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Channel_4_%28On_Demand%29_2023.svg/330px-Channel_4_%28On_Demand%29_2023.svg.png" ,🇬🇧 Channel 4
+https://albione.858it-cast.workers.dev/c4.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="C5.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" ,🇬🇧 Channel 5
+https://albione.858it-cast.workers.dev/c5.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTE1.ie" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/500px-RT%C3%89_One_2014.svg.png" ,🇮🇪 RTÉ1
+https://albione.858it-cast.workers.dev/rte1.m3u8
+#EXTINF:-1 group-title="Esteri" tvg-id="RTE1.ie" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/500px-RT%C3%892_logo.svg.png" ,🇮🇪 RTÉ2
+https://albione.858it-cast.workers.dev/rte2.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCTV.au@NSW" tvg-logo="https://i.imgur.com/DPVQSjM.png" ,🇦🇺 ABC TV
 https://c.mjh.nz/abc-nsw.m3u8
 #EXTINF:-1 group-title="Esteri" tvg-id="ABCEntertains.au@Sydney" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/330px-ABC_Entertains_logo.svg.png" ,🇦🇺 ABC Entertains
