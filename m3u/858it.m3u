@@ -392,6 +392,6 @@ https://slc.858it-cast.workers.dev/martignano.m3u8
 #EXTINF:-1 group-title="Webcam" tvg-id="Rostock" tvg-logo="https://i.imgur.com/HwFi2CK.png" ,Rostock (Radisson)
 https://stream1.panocloud.com/radissonblurostock/radissonblurostock.stream/playlist.m3u8
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 1" tvg-logo="https://i.imgur.com/KV8XWw2.png" ,🏴‍☠️ Evento 1
-https://live.143b.ch/cam/flux/ts:abr.m3u8
+https://vixcloud.co/playlist/775052?b=1&token=ee79d97cbbc82f36a2e870a7a51ecb26&expires=1797449549&scz=1&lang=it
 #EXTINF:-1 group-title="Extra" tvg-id="Evento 2" tvg-logo="https://i.imgur.com/28OXJcA.png" ,🏴‍☠️ Evento 2
 https://live.143b.ch/cam/flux/ts:abr.m3u8
